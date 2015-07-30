@@ -1,0 +1,32 @@
+{
+  "name": "baracss",
+  "version": "0.0.1",
+  "homepage": "https://github.com/rafaelramos/baracss",
+  "authors": [
+    "Rafael Ramos <rafael.ramos@crowdint.com>"
+  ],
+  "description": "BaraCSS is a simple CSS library that includes CSS properties that are not quantifiable and a simple grid system, that means that you just need to code CSS for specific modules and forget about general styles not worth to have a style selector just for that.",
+  "main": [
+    "public/styles/baracss.css"
+  ],
+  "keywords": [
+    "CSS",
+    "library",
+    "grid",
+    "system",
+    "baraCSS",
+    "rafael",
+    "ramos",
+    "base",
+    "styles"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "private": true
+}
