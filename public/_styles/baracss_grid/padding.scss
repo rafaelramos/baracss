@@ -1,0 +1,17 @@
+.pad-5 { padding: 5px; }
+.pad-top-5 { padding-top: 5px; }
+.pad-rgt-5 { padding-right: 5px; }
+.pad-bot-5 { padding-bottom: 5px; }
+.pad-lft-5 { padding-left: 5px; }
+.pad-x-5 { padding-right: 5px;padding-left: 5px; }
+.pad-y-5 { padding-top: 5px;padding-bottom: 5px; }
+
+@for $i from 0 through 10 {
+  .pad-#{$i*10} { padding: $i*10 + px; }
+  .pad-top-#{$i*10} { padding-top: $i*10 + px; }
+  .pad-rgt-#{$i*10} { padding-right: $i*10 + px; }
+  .pad-bot-#{$i*10} { padding-bottom: $i*10 + px; }
+  .pad-lft-#{$i*10} { padding-left: $i*10 + px; }
+  .pad-x-#{$i*10} { padding-right: $i*10 + px;padding-left: $i*10 + px; }
+  .pad-y-#{$i*10} { padding-top: $i*10 + px;padding-bottom: $i*10 + px; }
+}

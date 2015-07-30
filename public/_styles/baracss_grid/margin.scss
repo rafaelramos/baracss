@@ -1,0 +1,19 @@
+.mar-cen { margin-right: auto;margin-left: auto; }
+
+.mar-5 { margin: 5px; }
+.mar-top-5 { margin-top: 5px; }
+.mar-rgt-5 { margin-right: 5px; }
+.mar-bot-5 { margin-bottom: 5px; }
+.mar-lft-5 { margin-left: 5px; }
+.mar-x-5 { margin-right: 5px;margin-left: 5px; }
+.mar-y-5 { margin-top: 5px;margin-bottom: 5px; }
+
+@for $i from 0 through 10 {
+  .mar-#{$i*10} { margin: $i*10 + px; }
+  .mar-top-#{$i*10} { margin-top: $i*10 + px; }
+  .mar-rgt-#{$i*10} { margin-right: $i*10 + px; }
+  .mar-bot-#{$i*10} { margin-bottom: $i*10 + px; }
+  .mar-lft-#{$i*10} { margin-left: $i*10 + px; }
+  .mar-x-#{$i*10} { margin-right: $i*10 + px;margin-left: $i*10 + px; }
+  .mar-y-#{$i*10} { margin-top: $i*10 + px;margin-bottom: $i*10 + px; }
+}

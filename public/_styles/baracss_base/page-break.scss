@@ -1,0 +1,14 @@
+.pag-brk-aft-aut { page-break-after: auto; }
+.pag-brk-aft-alw { page-break-after: always; }
+.pag-brk-aft-avo { page-break-after: avoid; }
+.pag-brk-aft-lft { page-break-after: left; } // Not supported by IE and FF
+.pag-brk-aft-rgt { page-break-after: right; } // Not supported by IE and FF
+
+.pag-brk-bef-aut { page-break-before: auto; }
+.pag-brk-bef-alw { page-break-before: always; }
+.pag-brk-bef-avo { page-break-before: avoid; }
+.pag-brk-bef-lft { page-break-before: left; } // Not supported by IE and FF
+.pag-brk-bef-rgt { page-break-before: right; } // Not supported by IE and FF
+
+.pag-brk-ins-aut { page-break-before: auto; }
+.pag-brk-ins-avo { page-break-before: avoid; }

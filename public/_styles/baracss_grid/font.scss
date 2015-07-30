@@ -1,0 +1,8 @@
+$font-limit: 64;
+$font-helper: 10;
+
+// Font size will have the format .fnt-siz-x
+@while($font-helper <= $font-limit){
+  .fnt-siz-#{$font-helper} { font-size: $font-helper + px; }
+  $font-helper: $font-helper + 2;
+}
