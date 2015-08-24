@@ -5,17 +5,16 @@ $columns: 12;
 $grid-width: 1200px;
 $gutter: 40px;
 
-//$watch... just use the normal style without screen
-$phone: "(min-width: 320px)"; // -p
-$phablet: "(min-width: 481px)"; // -f
-$tablet: "(min-width: 768px)"; // -t
-$lap: "(min-width: 1025px)"; // -l
-$desk: "(min-width: 1200px)"; // -d
-
 // Grid container
 .grd-container {
-  max-width: $grid-width + $gutter;
+  max-width: $grid-width;
   margin: 0 auto;
+}
+
+.grd-container:after {
+  content:"";
+  display:table;
+  clear:both;
 }
 
 // Columns and columns with resolution

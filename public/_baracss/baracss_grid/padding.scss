@@ -15,3 +15,103 @@
   .pad-x-#{$i*10} { padding-right: $i*10 + px;padding-left: $i*10 + px; }
   .pad-y-#{$i*10} { padding-top: $i*10 + px;padding-bottom: $i*10 + px; }
 }
+
+@media #{$phone} {
+  .pad-5-p { padding: 5px; }
+  .pad-top-5-p { padding-top: 5px; }
+  .pad-rgt-5-p { padding-right: 5px; }
+  .pad-bot-5-p { padding-bottom: 5px; }
+  .pad-lft-5-p { padding-left: 5px; }
+  .pad-x-5-p { padding-right: 5px;padding-left: 5px; }
+  .pad-y-5-p { padding-top: 5px;padding-bottom: 5px; }
+
+  @for $i from 0 through 10 {
+    .pad-#{$i*10}-p { padding: $i*10 + px; }
+    .pad-top-#{$i*10}-p { padding-top: $i*10 + px; }
+    .pad-rgt-#{$i*10}-p { padding-right: $i*10 + px; }
+    .pad-bot-#{$i*10}-p { padding-bottom: $i*10 + px; }
+    .pad-lft-#{$i*10}-p { padding-left: $i*10 + px; }
+    .pad-x-#{$i*10}-p { padding-right: $i*10 + px;padding-left: $i*10 + px; }
+    .pad-y-#{$i*10}-p { padding-top: $i*10 + px;padding-bottom: $i*10 + px; }
+  }
+}
+
+@media #{$phablet} {
+  .pad-5-f { padding: 5px; }
+  .pad-top-5-f { padding-top: 5px; }
+  .pad-rgt-5-f { padding-right: 5px; }
+  .pad-bot-5-f { padding-bottom: 5px; }
+  .pad-lft-5-f { padding-left: 5px; }
+  .pad-x-5-f { padding-right: 5px;padding-left: 5px; }
+  .pad-y-5-f { padding-top: 5px;padding-bottom: 5px; }
+
+  @for $i from 0 through 10 {
+    .pad-#{$i*10}-f { padding: $i*10 + px; }
+    .pad-top-#{$i*10}-f { padding-top: $i*10 + px; }
+    .pad-rgt-#{$i*10}-f { padding-right: $i*10 + px; }
+    .pad-bot-#{$i*10}-f { padding-bottom: $i*10 + px; }
+    .pad-lft-#{$i*10}-f { padding-left: $i*10 + px; }
+    .pad-x-#{$i*10}-f { padding-right: $i*10 + px;padding-left: $i*10 + px; }
+    .pad-y-#{$i*10}-f { padding-top: $i*10 + px;padding-bottom: $i*10 + px; }
+  }
+}
+
+@media #{$tablet} {
+  .pad-5-t { padding: 5px; }
+  .pad-top-5-t { padding-top: 5px; }
+  .pad-rgt-5-t { padding-right: 5px; }
+  .pad-bot-5-t { padding-bottom: 5px; }
+  .pad-lft-5-t { padding-left: 5px; }
+  .pad-x-5-t { padding-right: 5px;padding-left: 5px; }
+  .pad-y-5-t { padding-top: 5px;padding-bottom: 5px; }
+
+  @for $i from 0 through 10 {
+    .pad-#{$i*10}-t { padding: $i*10 + px; }
+    .pad-top-#{$i*10}-t { padding-top: $i*10 + px; }
+    .pad-rgt-#{$i*10}-t { padding-right: $i*10 + px; }
+    .pad-bot-#{$i*10}-t { padding-bottom: $i*10 + px; }
+    .pad-lft-#{$i*10}-t { padding-left: $i*10 + px; }
+    .pad-x-#{$i*10}-t { padding-right: $i*10 + px;padding-left: $i*10 + px; }
+    .pad-y-#{$i*10}-t { padding-top: $i*10 + px;padding-bottom: $i*10 + px; }
+  }
+}
+
+@media #{$lap} {
+  .pad-5-l { padding: 5px; }
+  .pad-top-5-l { padding-top: 5px; }
+  .pad-rgt-5-l { padding-right: 5px; }
+  .pad-bot-5-l { padding-bottom: 5px; }
+  .pad-lft-5-l { padding-left: 5px; }
+  .pad-x-5-l { padding-right: 5px;padding-left: 5px; }
+  .pad-y-5-l { padding-top: 5px;padding-bottom: 5px; }
+
+  @for $i from 0 through 10 {
+    .pad-#{$i*10}-l { padding: $i*10 + px; }
+    .pad-top-#{$i*10}-l { padding-top: $i*10 + px; }
+    .pad-rgt-#{$i*10}-l { padding-right: $i*10 + px; }
+    .pad-bot-#{$i*10}-l { padding-bottom: $i*10 + px; }
+    .pad-lft-#{$i*10}-l { padding-left: $i*10 + px; }
+    .pad-x-#{$i*10}-l { padding-right: $i*10 + px;padding-left: $i*10 + px; }
+    .pad-y-#{$i*10}-l { padding-top: $i*10 + px;padding-bottom: $i*10 + px; }
+  }
+}
+
+@media #{$desk} {
+  .pad-5-d { padding: 5px; }
+  .pad-top-5-d { padding-top: 5px; }
+  .pad-rgt-5-d { padding-right: 5px; }
+  .pad-bot-5-d { padding-bottom: 5px; }
+  .pad-lft-5-d { padding-left: 5px; }
+  .pad-x-5-d { padding-right: 5px;padding-left: 5px; }
+  .pad-y-5-d { padding-top: 5px;padding-bottom: 5px; }
+
+  @for $i from 0 through 10 {
+    .pad-#{$i*10}-d { padding: $i*10 + px; }
+    .pad-top-#{$i*10}-d { padding-top: $i*10 + px; }
+    .pad-rgt-#{$i*10}-d { padding-right: $i*10 + px; }
+    .pad-bot-#{$i*10}-d { padding-bottom: $i*10 + px; }
+    .pad-lft-#{$i*10}-d { padding-left: $i*10 + px; }
+    .pad-x-#{$i*10}-d { padding-right: $i*10 + px;padding-left: $i*10 + px; }
+    .pad-y-#{$i*10}-d { padding-top: $i*10 + px;padding-bottom: $i*10 + px; }
+  }
+}

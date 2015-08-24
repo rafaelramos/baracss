@@ -1,6 +1,7 @@
 // BaraCSS v0.0.1
 
 // Grid files. NOTE: Grid styles are imported first to allow base classes override the grid style easily
+@import "baracss_grid/variables";
 @import "baracss_grid/general";
 @import "baracss_grid/font";
 @import "baracss_grid/grid";
@@ -9,6 +10,7 @@
 @import "baracss_grid/padding";
 @import "baracss_grid/position";
 @import "baracss_grid/size";
+@import "baracss_grid/states";
 
 // Base files
 @import "baracss_base/align";

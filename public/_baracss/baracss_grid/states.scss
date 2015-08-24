@@ -1,0 +1,17 @@
+.hide { display: none; }
+
+@media #{$phone} {
+  .hide-p { display: none; }
+}
+@media #{$phablet} {
+  .hide-f { display: none; }
+}
+@media #{$tablet} {
+  .hide-t { display: none; }
+}
+@media #{$lap} {
+  .hide-l { display: none; }
+}
+@media #{$desk} {
+  .hide-d { display: none; }
+}

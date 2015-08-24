@@ -3,6 +3,52 @@ $font-helper: 10;
 
 // Font size will have the format .fnt-siz-x
 @while($font-helper <= $font-limit){
-  .fnt-siz-#{$font-helper} { font-size: $font-helper + px; }
+  .fnt-siz-#{$font-helper} { font-size: ($font-helper/10) + rem; }
+  $font-helper: $font-helper + 2;
+}
+
+$font-helper: 10;
+@while($font-helper <= $font-limit){
+  .fnt-siz-#{$font-helper}-p {
+    @media #{$phone} { font-size: ($font-helper/10) + rem; }
+  }
+
+  $font-helper: $font-helper + 2;
+}
+
+$font-helper: 10;
+@while($font-helper <= $font-limit){
+  .fnt-siz-#{$font-helper}-f {
+    @media #{$phablet} { font-size: ($font-helper/10) + rem; }
+  }
+
+  $font-helper: $font-helper + 2;
+}
+
+$font-helper: 10;
+@while($font-helper <= $font-limit){
+  .fnt-siz-#{$font-helper}-t {
+    @media #{$tablet} { font-size: ($font-helper/10) + rem; }
+  }
+
+  $font-helper: $font-helper + 2;
+}
+
+$font-helper: 10;
+@while($font-helper <= $font-limit){
+  .fnt-siz-#{$font-helper}-l {
+    @media #{$lap} { font-size: ($font-helper/10) + rem; }
+  }
+
+  $font-helper: $font-helper + 2;
+}
+
+$font-helper: 10;
+@while($font-helper <= $font-limit){
+
+  .fnt-siz-#{$font-helper}-d {
+    @media #{$desk} { font-size: ($font-helper/10) + rem; }
+  }
+
   $font-helper: $font-helper + 2;
 }
