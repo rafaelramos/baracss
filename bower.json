@@ -18,7 +18,9 @@
     "rafael",
     "ramos",
     "base",
-    "styles"
+    "styles",
+    "atomic",
+    "classes"
   ],
   "license": "MIT",
   "ignore": [

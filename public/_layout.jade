@@ -4,4 +4,6 @@ html
     link(rel="stylesheet" href="/styles/baracss.css")
     link(rel="stylesheet" href="/main.css")
   body
+    != partial("_partials/header")
     != yield
+    != partial("_partials/footer")
