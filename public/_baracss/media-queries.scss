@@ -1,0 +1,22 @@
+//Here all the classes with responsive support are generated
+//To include a new responsive class just create a map and mege it to $responsiveMap,
+//the map should have the class as the key and property and values
+//Eg. $textAlignMap: ( bc-te-al-ce: ('text-align', 'center') );
+
+//This loop creates the class without media query
+@each $k, $v in $responsiveMap {
+  .#{$k} {
+    #{nth($v, 1)}: #{nth($v, 2)};
+  }
+}
+
+//This loop creates the class with media query and class extension
+@each $size, $width in $sizesMap {
+  @media (min-width: #{$width}px) {
+    @each $k, $v in $responsiveMap {
+      .#{$k}--#{$size} {
+        #{nth($v, 1)}: #{nth($v, 2)};
+      }
+    }
+  }
+}

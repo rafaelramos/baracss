@@ -1,60 +1,46 @@
 // Grid system and columns
 
-// Grid variables
-$columns: 12;
-$grid-width: 1200px;
-$gutter: 40px;
-
 // Grid container
-.grd-container {
-  max-width: $grid-width;
+.bc-grid-cont {
+  max-width: map-get($sizesMap, xl);
   margin: 0 auto;
 }
 
-.grd-container:after {
+.bc-grid-cont:after {
   content:"";
   display:table;
   clear:both;
 }
 
-// Columns and columns with resolution
-@for $i from 1 through $columns {
-  .col-#{$i} { float: left;padding-left: $gutter/2;padding-right: $gutter/2;width: (100%/$columns)*$i; }
+@each $size, $width in $sizesMap {
+  .bc-grid-cont-#{$size} {
+    max-width: $width;
+    margin: 0 auto;
+  }
 
-  @media #{$phone} {
-    .col-#{$i}-p { float: left;padding-left: $gutter/2;padding-right: $gutter/2;width: (100%/$columns)*$i; }
-  }
-  @media #{$phablet} {
-    .col-#{$i}-f { float: left;padding-left: $gutter/2;padding-right: $gutter/2;width: (100%/$columns)*$i; }
-  }
-  @media #{$tablet} {
-    .col-#{$i}-t { float: left;padding-left: $gutter/2;padding-right: $gutter/2;width: (100%/$columns)*$i; }
-  }
-  @media #{$lap} {
-    .col-#{$i}-l { float: left;padding-left: $gutter/2;padding-right: $gutter/2;width: (100%/$columns)*$i; }
-  }
-  @media #{$desk} {
-    .col-#{$i}-d { float: left;padding-left: $gutter/2;padding-right: $gutter/2;width: (100%/$columns)*$i; }
+  .bc-grid-cont-#{$size}:after {
+    content:"";
+    display:table;
+    clear:both;
   }
 }
 
-// Span offset
-@for $i from 1 through $columns {
-  .col-off-#{$i} { margin-left: (100%/$columns)*$i; }
+// Columns and responsive columns
+@for $i from $columns through 1 {
+  .bc-col-#{$i} { float: left;padding-left: $gutter/2;padding-right: $gutter/2;width: (100%/$columns)*$i; }
 
-  @media #{$phone} {
-    .col-off-#{$i}-p { margin-left: (100%/$columns)*$i; }
+  @each $size, $width in $sizesMap {
+    .bc-col-#{$i}-#{$size} {
+      @media (min-width: #{$width}px) {  float: left;padding-left: $gutter/2;padding-right: $gutter/2;width: (100%/$columns)*$i; }
+    }
   }
-  @media #{$phablet} {
-    .col-off-#{$i}-f { margin-left: (100%/$columns)*$i; }
-  }
-  @media #{$tablet} {
-    .col-off-#{$i}-t { margin-left: (100%/$columns)*$i; }
-  }
-  @media #{$lap} {
-    .col-off-#{$i}-l { margin-left: (100%/$columns)*$i; }
-  }
-  @media #{$desk} {
-    .col-off-#{$i}-d { margin-left: (100%/$columns)*$i; }
-  }
+}
+
+// Columns offset
+@for $i from 1 through $columns {
+  $colOffMap: (
+    bc-col-off-#{$i}: ('margin-left', (100%/$columns)*$i)
+  );
+
+  $responsiveMap: map-merge($responsiveMap, $colOffMap);
 }

@@ -1,0 +1,15 @@
+//Media queries variables
+$responsiveMap: ();
+
+$sizesMap: (
+  xs: 320,    // --xs
+  s: 480,     // --s
+  m: 768,     // --m
+  l: 1024,    // --l
+  xl: 1200,   // --xl
+  xxl: 1440   // --xxl
+);
+
+// Grid variables
+$columns: 12;
+$gutter: 40px;

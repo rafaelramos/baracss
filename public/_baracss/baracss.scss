@@ -1,8 +1,13 @@
 // BaraCSS v0.0.1
 
-// Grid files. NOTE: Grid styles are imported first to allow base classes override the grid style easily
-@import "baracss_grid/variables";
+// Files used by both Grid and base
+@import "variables-and-mixins";
+
+// Grid should have a general file?
 @import "baracss_grid/general";
+
+// Grid files. NOTE: Grid styles are imported first to allow base classes override the grid style easily
+@import "baracss_grid/border";
 @import "baracss_grid/font";
 @import "baracss_grid/grid";
 @import "baracss_grid/line-height";
@@ -40,3 +45,6 @@
 @import "baracss_base/visibility";
 @import "baracss_base/white-space";
 @import "baracss_base/word";
+
+//Generate Media Queries Classes
+@import "media-queries";

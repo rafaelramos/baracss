@@ -1,16 +1,24 @@
-.txt-ali-cen { text-align: center; }
-.txt-ali-lft { text-align: left; }
-.txt-ali-rgt { text-align: right; }
+//Text Align
+$textAlignMap: (
+  bc-te-al-ce: ('text-align', 'center'),
+  bc-te-al-le: ('text-align', 'left'),
+  bc-te-al-ri: ('text-align', 'right')
+);
 
-.txt-dec-non { text-decoration: none; }
-.txt-dec-und { text-decoration: underline; }
-.txt-dec-ove { text-decoration: overline; }
-.txt-dec-lith { text-decoration: line-through; }
+$responsiveMap: map-merge($responsiveMap, $textAlignMap);
 
-.txt-ove-cli { text-overflow: clip; }
-.txt-ove-ellipsis { text-overflow: ellipsis; }
+// Text Decoration
+.bc-te-de-lith { text-decoration: line-through; }
+.bc-te-de-no { text-decoration: none; }
+.bc-te-de-ov { text-decoration: overline; }
+.bc-te-de-un { text-decoration: underline; }
 
-.txt-trs-non { text-transform: none; }
-.txt-trs-cap { text-transform: capitalize; }
-.txt-trs-low { text-transform: uppercase; }
-.txt-trs-upe { text-transform: lowercase; }
+//Text Overflow
+.bc-te-ov-cl { text-overflow: clip; }
+.bc-te-ov-el { text-overflow: ellipsis; }
+
+//Text Transform
+.bc-te-tr-ca { text-transform: capitalize; }
+.bc-te-tr-lo { text-transform: lowercase; }
+.bc-te-tr-no { text-transform: none; }
+.bc-te-tr-up { text-transform: uppercase; }

@@ -1,129 +1,44 @@
-.mar-cen { margin-right: auto;margin-left: auto; }
+// Margin
+.bc-ma-ce { margin-right: auto;margin-left: auto; }
 
-.mar-5 { margin: 5px; }
-.mar-top-5 { margin-top: 5px; }
-.mar-rgt-5 { margin-right: 5px; }
-.mar-bot-5 { margin-bottom: 5px; }
-.mar-lft-5 { margin-left: 5px; }
-.mar-x-5 { margin-right: 5px;margin-left: 5px; }
-.mar-y-5 { margin-top: 5px;margin-bottom: 5px; }
+.bc-ma-5 { margin: 5px; }
+.bc-ma-bo-5 { margin-bottom: 5px; }
+.bc-ma-le-5 { margin-left: 5px; }
+.bc-ma-ri-5 { margin-right: 5px; }
+.bc-ma-to-5 { margin-top: 5px; }
+.bc-ma-x-5 { margin-right: 5px;margin-left: 5px; }
+.bc-ma-y-5 { margin-top: 5px;margin-bottom: 5px; }
 
 @for $i from 0 through 10 {
-  .mar-#{$i*10} { margin: $i*10 + px; }
-  .mar-top-#{$i*10} { margin-top: $i*10 + px; }
-  .mar-rgt-#{$i*10} { margin-right: $i*10 + px; }
-  .mar-bot-#{$i*10} { margin-bottom: $i*10 + px; }
-  .mar-lft-#{$i*10} { margin-left: $i*10 + px; }
-  .mar-x-#{$i*10} { margin-right: $i*10 + px;margin-left: $i*10 + px; }
-  .mar-y-#{$i*10} { margin-top: $i*10 + px;margin-bottom: $i*10 + px; }
+  .bc-ma-#{$i*10} { margin: $i*10 + px; }
+  .bc-ma-bo-#{$i*10} { margin-bottom: $i*10 + px; }
+  .bc-ma-le-#{$i*10} { margin-left: $i*10 + px; }
+  .bc-ma-ri-#{$i*10} { margin-right: $i*10 + px; }
+  .bc-ma-to-#{$i*10} { margin-top: $i*10 + px; }
+  .bc-ma-x-#{$i*10} { margin-right: $i*10 + px;margin-left: $i*10 + px; }
+  .bc-ma-y-#{$i*10} { margin-top: $i*10 + px;margin-bottom: $i*10 + px; }
 }
 
-@media #{$phone} {
-  .mar-cen-p { margin-right: auto;margin-left: auto; }
+@each $size, $width in $sizesMap {
+  @media (min-width: #{$width}px) {
+    .bc-ma-ce--#{$size} { margin-right: auto;margin-left: auto; }
 
-  .mar-5-p { margin: 5px; }
-  .mar-top-5-p { margin-top: 5px; }
-  .mar-rgt-5-p { margin-right: 5px; }
-  .mar-bot-5-p { margin-bottom: 5px; }
-  .mar-lft-5-p { margin-left: 5px; }
-  .mar-x-5-p { margin-right: 5px;margin-left: 5px; }
-  .mar-y-5-p { margin-top: 5px;margin-bottom: 5px; }
+    .bc-ma-5--#{$size} { margin: 5px; }
+    .bc-ma-bo-5--#{$size} { margin-bottom: 5px; }
+    .bc-ma-le-5--#{$size} { margin-left: 5px; }
+    .bc-ma-ri-5--#{$size} { margin-right: 5px; }
+    .bc-ma-to-5--#{$size} { margin-top: 5px; }
+    .bc-ma-x-5--#{$size} { margin-right: 5px;margin-left: 5px; }
+    .bc-ma-y-5--#{$size} { margin-top: 5px;margin-bottom: 5px; }
 
-  @for $i from 0 through 10 {
-    .mar-#{$i*10}-p { margin: $i*10 + px; }
-    .mar-top-#{$i*10}-p { margin-top: $i*10 + px; }
-    .mar-rgt-#{$i*10}-p { margin-right: $i*10 + px; }
-    .mar-bot-#{$i*10}-p { margin-bottom: $i*10 + px; }
-    .mar-lft-#{$i*10}-p { margin-left: $i*10 + px; }
-    .mar-x-#{$i*10}-p { margin-right: $i*10 + px;margin-left: $i*10 + px; }
-    .mar-y-#{$i*10}-p { margin-top: $i*10 + px;margin-bottom: $i*10 + px; }
-  }
-}
-
-@media #{$phablet} {
-  .mar-cen-f { margin-right: auto;margin-left: auto; }
-
-  .mar-5-f { margin: 5px; }
-  .mar-top-5-f { margin-top: 5px; }
-  .mar-rgt-5-f { margin-right: 5px; }
-  .mar-bot-5-f { margin-bottom: 5px; }
-  .mar-lft-5-f { margin-left: 5px; }
-  .mar-x-5-f { margin-right: 5px;margin-left: 5px; }
-  .mar-y-5-f { margin-top: 5px;margin-bottom: 5px; }
-
-  @for $i from 0 through 10 {
-    .mar-#{$i*10}-f { margin: $i*10 + px; }
-    .mar-top-#{$i*10}-f { margin-top: $i*10 + px; }
-    .mar-rgt-#{$i*10}-f { margin-right: $i*10 + px; }
-    .mar-bot-#{$i*10}-f { margin-bottom: $i*10 + px; }
-    .mar-lft-#{$i*10}-f { margin-left: $i*10 + px; }
-    .mar-x-#{$i*10}-f { margin-right: $i*10 + px;margin-left: $i*10 + px; }
-    .mar-y-#{$i*10}-f { margin-top: $i*10 + px;margin-bottom: $i*10 + px; }
-  }
-}
-
-@media #{$tablet} {
-  .mar-cen-t { margin-right: auto;margin-left: auto; }
-
-  .mar-5-t { margin: 5px; }
-  .mar-top-5-t { margin-top: 5px; }
-  .mar-rgt-5-t { margin-right: 5px; }
-  .mar-bot-5-t { margin-bottom: 5px; }
-  .mar-lft-5-t { margin-left: 5px; }
-  .mar-x-5-t { margin-right: 5px;margin-left: 5px; }
-  .mar-y-5-t { margin-top: 5px;margin-bottom: 5px; }
-
-  @for $i from 0 through 10 {
-    .mar-#{$i*10}-t { margin: $i*10 + px; }
-    .mar-top-#{$i*10}-t { margin-top: $i*10 + px; }
-    .mar-rgt-#{$i*10}-t { margin-right: $i*10 + px; }
-    .mar-bot-#{$i*10}-t { margin-bottom: $i*10 + px; }
-    .mar-lft-#{$i*10}-t { margin-left: $i*10 + px; }
-    .mar-x-#{$i*10}-t { margin-right: $i*10 + px;margin-left: $i*10 + px; }
-    .mar-y-#{$i*10}-t { margin-top: $i*10 + px;margin-bottom: $i*10 + px; }
-  }
-}
-
-@media #{$lap} {
-  .mar-cen-l { margin-right: auto;margin-left: auto; }
-
-  .mar-5-l { margin: 5px; }
-  .mar-top-5-l { margin-top: 5px; }
-  .mar-rgt-5-l { margin-right: 5px; }
-  .mar-bot-5-l { margin-bottom: 5px; }
-  .mar-lft-5-l { margin-left: 5px; }
-  .mar-x-5-l { margin-right: 5px;margin-left: 5px; }
-  .mar-y-5-l { margin-top: 5px;margin-bottom: 5px; }
-
-  @for $i from 0 through 10 {
-    .mar-#{$i*10}-l { margin: $i*10 + px; }
-    .mar-top-#{$i*10}-l { margin-top: $i*10 + px; }
-    .mar-rgt-#{$i*10}-l { margin-right: $i*10 + px; }
-    .mar-bot-#{$i*10}-l { margin-bottom: $i*10 + px; }
-    .mar-lft-#{$i*10}-l { margin-left: $i*10 + px; }
-    .mar-x-#{$i*10}-l { margin-right: $i*10 + px;margin-left: $i*10 + px; }
-    .mar-y-#{$i*10}-l { margin-top: $i*10 + px;margin-bottom: $i*10 + px; }
-  }
-}
-
-@media #{$desk} {
-  .mar-cen-d { margin-right: auto;margin-left: auto; }
-
-  .mar-5-d { margin: 5px; }
-  .mar-top-5-d { margin-top: 5px; }
-  .mar-rgt-5-d { margin-right: 5px; }
-  .mar-bot-5-d { margin-bottom: 5px; }
-  .mar-lft-5-d { margin-left: 5px; }
-  .mar-x-5-d { margin-right: 5px;margin-left: 5px; }
-  .mar-y-5-d { margin-top: 5px;margin-bottom: 5px; }
-
-  @for $i from 0 through 10 {
-    .mar-#{$i*10}-d { margin: $i*10 + px; }
-    .mar-top-#{$i*10}-d { margin-top: $i*10 + px; }
-    .mar-rgt-#{$i*10}-d { margin-right: $i*10 + px; }
-    .mar-bot-#{$i*10}-d { margin-bottom: $i*10 + px; }
-    .mar-lft-#{$i*10}-d { margin-left: $i*10 + px; }
-    .mar-x-#{$i*10}-d { margin-right: $i*10 + px;margin-left: $i*10 + px; }
-    .mar-y-#{$i*10}-d { margin-top: $i*10 + px;margin-bottom: $i*10 + px; }
+    @for $i from 0 through 10 {
+      .bc-ma-#{$i*10}--#{$size} { margin: $i*10 + px; }
+      .bc-ma-bo-#{$i*10}--#{$size} { margin-bottom: $i*10 + px; }
+      .bc-ma-le-#{$i*10}--#{$size} { margin-left: $i*10 + px; }
+      .bc-ma-ri-#{$i*10}--#{$size} { margin-right: $i*10 + px; }
+      .bc-ma-to-#{$i*10}--#{$size} { margin-top: $i*10 + px; }
+      .bc-ma-x-#{$i*10}--#{$size} { margin-right: $i*10 + px;margin-left: $i*10 + px; }
+      .bc-ma-y-#{$i*10}--#{$size} { margin-top: $i*10 + px;margin-bottom: $i*10 + px; }
+    }
   }
 }

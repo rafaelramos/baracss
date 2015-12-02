@@ -1,17 +1,7 @@
-.hide { display: none; }
+// States
+$statesMap: (
+  bc-hide: ('display', 'none !important'),
+  bc-show: ('display', 'block !important')
+);
 
-@media #{$phone} {
-  .hide-p { display: none; }
-}
-@media #{$phablet} {
-  .hide-f { display: none; }
-}
-@media #{$tablet} {
-  .hide-t { display: none; }
-}
-@media #{$lap} {
-  .hide-l { display: none; }
-}
-@media #{$desk} {
-  .hide-d { display: none; }
-}
+$responsiveMap: map-merge($responsiveMap, $statesMap);

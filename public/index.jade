@@ -1,27 +1,82 @@
+section.hero-container
+  .grd-container.pad-y-50.pad-x-30
+      .col-12.col-4-t LOGO
+      .col-12.col-8-t
+        h1.fnt-siz-26.clr-txt-wht BaraCSS is a library that handles the atomic CSS properties and the grid system for you.
+        div.mar-top-30
+        a(class='btn btn-green txt-dec-non pad-x-20 pad-y-10 fnt-siz-20', href='/') Get started
 section
-  .grd-container.pad-50
-      .col-4 LOGO
-      .col-8
-        h1.fnt-siz-16 BaraCSS handle the atomic CSS properties and the grid system for you.
-        div.mar-top-30 CTA (Get started)
+  .grd-container.pad-y-50.pad-x-30
+    h2.txt-ali-cen.fnt-siz-32 What is BaraCSS?
+    .pad-top-30.clearfix
+      .col-12.col-4-t IMG
+      .col-12.col-8-t.fnt-siz-20
+        p BaraCSS is a simple CSS library that includes CSS properties that are not quantifiable and a simple grid system, that means that you just need to code CSS for specific modules and forget about general styles not worth to have a style selector just for that.
+hr
 section
-  .grd-container.pad-50
-    h2 What is BaraCSS?
-    p BaraCSS is a simple CSS library that includes CSS properties that are not quantifiable and a simple grid system, that means that you just need to code CSS for specific modules and forget about general styles not worth to have a style selector just for that.
+  .grd-container.pad-y-50.pad-x-30
+    h2.txt-ali-cen.fnt-siz-32 How to use BaraCSS?
+    .pad-top-30.clearfix
+      .col-12.col-8-t.fnt-siz-20
+        p To use BaraCSS you just need to include the file in your site, after that you are ready to use all the classes included in this library.
+        p.mar-top-20.bor-rad-3.pad-10.txt-ali-cen.clr-txt-wht.clr-bgc-sec
+          i #{"<link rel='stylesheet' href='/styles/baracss.css'>"}
+      .col-4-t.txt-ali-rgt.hide-p.show-t IMG
+    .pad-top-30.clearfix
+      .col-4.hide-p.show-t IMG
+      .col-12.col-8-t.txt-ali-rgt-t.fnt-siz-20
+        p If you use bower you can add it to your project. You can see the full bower page #[a(href='/') here].
+        p.mar-top-20.txt-ali-cen.clr-txt-wht.clr-bgc-sec.pad-10.bor-rad-3
+          i bower install baraCSS
+    .pad-top-30.clearfix
+      .col12.fnt-siz-20
+        h3.txt-ali-cen BaraCSS Base
+      .col-12.col-6-t.fnt-siz-20
+        p.mar-y-30 BaraCSS base are all those styles that doesn't have a measure in numbers, for example alignments, display, cursor style, etc. You can see the full list in the #[a(href='/') documentation].
+      .col-12.col-6-t.fnt-siz-18
+        div.fnt-sty-ita.mar-top-30.bor-rad-3.pad-10.clr-txt-wht.clr-bgc-sec
+          p txt-dec-und:
+            span.mar-lft-10.txt-dec-und Underline
+          p txt-trs-upe:
+            span.mar-lft-10.txt-trs-upe Uppercase
+          p cur-help:
+            span.mar-lft-10.cur-help Cursor Help
+    .pad-top-30.clearfix
+      .clearfix
+        .col-12.fnt-siz-20
+          h3.txt-ali-cen BaraCSS Grid system
+          p.mar-y-30 BaraCSS Grid System is a simple column system and spacing shortcuts. You can see the full list in the #[a(href='/') documentation].
+      .clearfix
+        .col12.fnt-siz-18.txt-ali-cen
+          h4.mar-bot-20 Simple Grid
+        .col-6.fnt-siz-18.txt-ali-cen
+          p.bor-rad-3.pad-5.clr-txt-wht.clr-bgc-sec col-6
+        .col-6.fnt-siz-18.txt-ali-cen
+          p.bor-rad-3.pad-5.clr-txt-wht.clr-bgc-sec col-6
+        .col-12.pad-10
+        .col-4.fnt-siz-18.txt-ali-cen
+          p.bor-rad-3.pad-5.clr-txt-wht.clr-bgc-sec col-4
+        .col-4.fnt-siz-18.txt-ali-cen
+          p.bor-rad-3.pad-5.clr-txt-wht.clr-bgc-sec col-4
+        .col-4.fnt-siz-18.txt-ali-cen
+          p.bor-rad-3.pad-5.clr-txt-wht.clr-bgc-sec col-4
+      .clearfix
+        .col12.fnt-siz-18.txt-ali-cen
+          .clearfix
+          h4.pad-top-20.pad-bot-10 Responsive Grid
+        .col-12.col-6-t.col-3-d.fnt-siz-18.txt-ali-cen.mar-top-10
+          p.clr-txt-wht.clr-bgc-sec.bor-rad-3.pad-5 col-12 col-6-t col-3-d
+        .col-12.col-6-t.col-3-d.fnt-siz-18.txt-ali-cen.mar-top-10
+          p.clr-txt-wht.clr-bgc-sec.bor-rad-3.pad-5 col-12 col-6-t col-3-d
+        .col-12.col-6-t.col-3-d.fnt-siz-18.txt-ali-cen.mar-top-10
+          p.clr-txt-wht.clr-bgc-sec.bor-rad-3.pad-5 col-12 col-6-t col-3-d
+        .col-12.col-6-t.col-3-d.fnt-siz-18.txt-ali-cen.mar-top-10
+          p.clr-txt-wht.clr-bgc-sec.bor-rad-3.pad-5 col-12 col-6-t col-3-d
+hr
 section
-  .grd-container.pad-50
-    h2 What BaraCSS can do for me?
-    p Bacon ipsum dolor amet pig pastrami beef, leberkas meatball ribeye pork chop. Jerky landjaeger pork chop pig, kielbasa ham tail flank porchetta brisket.
-    p IMAGES OR CODE
-    p Bacon ipsum dolor amet pig pastrami beef, leberkas meatball ribeye pork chop. Jerky landjaeger pork chop pig, kielbasa ham tail flank porchetta brisket.
-    p IMAGES OR CODE
-    p Bacon ipsum dolor amet pig pastrami beef, leberkas meatball ribeye pork chop. Jerky landjaeger pork chop pig, kielbasa ham tail flank porchetta brisket.
-    p IMAGES OR CODE
-    p Bacon ipsum dolor amet pig pastrami beef, leberkas meatball ribeye pork chop. Jerky landjaeger pork chop pig, kielbasa ham tail flank porchetta brisket.
-    p IMAGES OR CODE
-section
-  .grd-container.pad-50.txt-ali-cen
-    h2 Get started
-    p Bacon ipsum dolor amet pig pastrami beef, leberkas meatball ribeye pork chop. Jerky landjaeger pork chop pig, kielbasa ham tail flank porchetta brisket.
-    div CTA (Get started)
-    div Github
+  .grd-container.pad-y-50.pad-x-30.txt-ali-cen
+    h2.fnt-siz-32 Get started
+    p.mar-top-30.fnt-siz-20 BaraCSS is a simple CSS library, you just need to include it in your project and you are ready to go.
+    p.mar-top-10.fnt-siz-20 You can contribute, fork and make your own and improved version.
+    .mar-top-30
+      a(class='btn btn-green clr-txt-wht txt-dec-non pad-x-20 pad-y-10 fnt-siz-20', href='/') Get started

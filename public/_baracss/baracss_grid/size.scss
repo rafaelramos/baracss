@@ -1,4 +1,5 @@
+// Height, Width
 @for $i from 0 through 10 {
-  .hei-#{$i*10} { height: $i*10%; }
-  .wid-#{$i*10} { width: $i*10%; }
+  .bc-hei-#{$i*10} { height: $i*10%; }
+  .bc-wid-#{$i*10} { width: $i*10%; }
 }

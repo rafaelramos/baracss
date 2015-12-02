@@ -1,11 +1,14 @@
-.fnt-sty-nor { font-style: normal;}
-.fnt-sty-ita { font-style: italic; }
-.fnt-sty-obl { font-style: oblique; }
+//Font Style
+.bc-fo-st-it { font-style: italic; }
+.bc-fo-st-no { font-style: normal; }
+.bc-fo-st-ob { font-style: oblique; }
 
-.fnt-var-smcap { font-variant: small-caps; }
+//Font Variant
+.bc-fo-va-smca { font-variant: small-caps; }
 
-.fnt-wei-ltr { font-weight: 200; }
-.fnt-wei-lit { font-weight: 300; }
-.fnt-wei-reg { font-weight: 400; }
-.fnt-wei-bld { font-weight: 700; }
-.fnt-wei-blr { font-weight: 900; }
+//Font Weight
+.bc-fo-we-lir { font-weight: 200; } //lighter
+.bc-fo-we-li { font-weight: 300; } //light
+.bc-fo-we-no { font-weight: 400; } //normal
+.bc-fo-we-bo { font-weight: 700; } //bold
+.bc-fo-we-bor { font-weight: 900; } //bolder

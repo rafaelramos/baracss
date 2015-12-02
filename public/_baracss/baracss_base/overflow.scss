@@ -1,14 +1,13 @@
-.ove-vis { overflow: visible; }
-.ove-hid { overflow: hidden; }
-.ove-scr { overflow: scroll; }
-.ove-aut { overflow: auto; }
-
-.ove-x-vis { overflow-x: visible; }
-.ove-x-hid { overflow-x: hidden; }
-.ove-x-scr { overflow-x: scroll; }
-.ove-x-aut { overflow-x: auto; }
-
-.ove-y-vis { overflow-y: visible; }
-.ove-y-hid { overflow-y: hidden; }
-.ove-y-scr { overflow-y: scroll; }
-.ove-y-aut { overflow-y: auto; }
+//Overflow
+.bc-ov-au { overflow: auto; }
+.bc-ov-hi { overflow: hidden; }
+.bc-ov-sc { overflow: scroll; }
+.bc-ov-vi { overflow: visible; }
+.bc-ov-x-au { overflow-x: auto; }
+.bc-ov-x-hi { overflow-x: hidden; }
+.bc-ov-x-sc { overflow-x: scroll; }
+.bc-ov-x-vi { overflow-x: visible; }
+.bc-ov-y-au { overflow-y: auto; }
+.bc-ov-y-hi { overflow-y: hidden; }
+.bc-ov-y-sc { overflow-y: scroll; }
+.bc-ov-y-vi { overflow-y: visible; }

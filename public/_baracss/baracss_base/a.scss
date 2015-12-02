@@ -1,0 +1,125 @@
+// ADDITIVE SYMBOLS
+// *Not included because its values are not common and missing support
+
+// ALIGN CONTENT
+.bc-al-co-ce { -webkit-align-content: center;align-content: center; }
+.bc-al-co-flen { -webkit-align-content: flex-end;align-content: flex-end; }
+.bc-al-co-flst { -webkit-align-content: flex-start;align-content: flex-start; }
+.bc-al-co-spar { -webkit-align-content: space-around;align-content: space-around; }
+.bc-al-co-spbt { -webkit-align-content: space-between;align-content: space-between; }
+.bc-al-co-st { -webkit-align-content: stretch;align-content: stretch; }
+//
+//.bc-al-co-inh { -webkit-align-content: inherit;align-content: inherit; }
+.bc-al-co-ini { -webkit-align-content: initial;align-content: initial; }
+.bc-al-co-un { -webkit-align-content: unset;align-content: unset; }
+
+// ALIGN ITEMS
+.bc-al-it-ba { -webkit-align-items: baseline;align-items: baseline; }
+.bc-al-it-ce { -webkit-align-items: center;align-items: center; }
+.bc-al-it-flen { -webkit-align-items: flex-end;align-items: flex-end; }
+.bc-al-it-flst { -webkit-align-items: flex-start;align-items: flex-start; }
+.bc-al-it-st { -webkit-align-items: stretch;align-items: stretch; }
+//
+//.bc-al-it-inh { -webkit-align-items: inherit;align-items: inherit; }
+.bc-al-it-ini { -webkit-align-items: initial;align-items: initial; }
+.bc-al-it-un { -webkit-align-items: unset;align-items: unset; }
+
+// ALIGN SELF
+.bc-al-sl-au { -webkit-align-self: auto;align-self: auto; }
+.bc-al-sl-ba { -webkit-align-self: baseline;align-self: baseline; }
+.bc-al-sl-ce { -webkit-align-self: center;align-self: center; }
+.bc-al-sl-flen { -webkit-align-self: flex-end;align-self: flex-end; }
+.bc-al-sl-flst { -webkit-align-self: flex-start;align-self: flex-start; }
+.bc-al-sl-st { -webkit-align-self: stretch;align-self: stretch; }
+//
+//.bc-al-sl-inh { -webkit-align-self: inherit;align-self: inherit; }
+.bc-al-sl-ini { -webkit-align-self: initial;align-self: initial; }
+.bc-al-sl-un { -webkit-align-self: unset;align-self: unset; }
+
+// ALIGNMENT BASELINE
+.bc-alt-ba-afed { alignment-baseline: after-edge; }
+.bc-alt-ba-al { alignment-baseline: alphabetic; }
+.bc-alt-ba-ba { alignment-baseline: baseline; }
+.bc-alt-ba-beed { alignment-baseline: before-edge; }
+.bc-alt-ba-ce { alignment-baseline: central; }
+.bc-alt-ba-ha { alignment-baseline: hanging; }
+.bc-alt-ba-id { alignment-baseline: ideographic; }
+.bc-alt-ba-ma { alignment-baseline: mathematical; }
+.bc-alt-ba-mi { alignment-baseline: middle; }
+.bc-alt-ba-teafed { alignment-baseline: text-after-edge; }
+.bc-alt-ba-tebeed { alignment-baseline: text-before-edge; }
+.bc-alt-ba-ussc { alignment-baseline: use-script; }
+//
+//.bc-alt-ba-inh { alignment-baseline: inherit; }
+.bc-alt-ba-ini { alignment-baseline: initial; }
+
+// ALL
+//.bc-all-inh { all: inherit; }
+.bc-all-ini { all: initial; }
+.bc-all-un { all: unset; }
+
+// ANIMATION
+// *Not included because it has a large amount of values
+
+// ANIMATION DELAY
+// *Not included because it has a large amount of values and specification has not stabilized
+
+// ANIMATION DIRECTION
+// *Not included because specification has not stabilized
+//.bc-an-di-no { animation-direction: normal; }
+//.bc-an-di-re { animation-direction: reverse; }
+//.bc-an-di-al { animation-direction: alternate; }
+//.bc-an-di-alre { animation-direction: alternate-reverse; }
+//
+// *Animation direction with multiple values were not included
+//
+////.bc-an-di-inh { animation-direction: inherit; }
+//.bc-an-di-ini { animation-direction: initial; }
+//.bc-an-di-un { animation-direction: unset; }
+
+// ANIMATION DURATION
+// *Not included because it has a large amount of values and specification has not stabilized
+
+// ANIMATION FILL MODE
+// *Not included because specification has not stabilized
+//.bc-an-fi-ba { animation-fill-mode: backwards; }
+//.bc-an-fi-bo { animation-fill-mode: both; }
+//.bc-an-fi-no { animation-fill-mode: none; }
+//.bc-an-fi-fo { animation-fill-mode: forwards; }
+//
+// *Animation fill mode with multiple values were not included
+
+// ANIMATION ITERATION COUNT
+// *Not included because it has a large amount of values and specification has not stabilized
+
+// ANIMATION NAME
+// *Not included because it has a large amount of values and specification has not stabilized
+
+// ANIMATION PLAY STATE
+// *Not included because specification has not stabilized
+//.bc-an-pl-st-pa { animation-play-state: paused; }
+//.bc-an-pl-st-ru { animation-play-state: running; }
+//
+// *Animation fill mode with multiple values were not included
+//
+////.bc-an-pl-st-inh { animation-play-state: inherit; }
+//.bc-an-pl-st-ini { animation-play-state: initial; }
+//.bc-an-pl-st-un { animation-play-state: unset; }
+
+// ANIMATION TIMING FUNCTION
+// *Not included because specification has not stabilized
+//.bc-an-ti-fu-ea { animation-timing-function: ease; }
+//.bc-an-ti-fu-eain { animation-timing-function: ease-in; }
+//.bc-an-ti-fu-eaou { animation-timing-function: ease-out; }
+//.bc-an-ti-fu-eainou { animation-timing-function: ease-in-out; }
+//.bc-an-ti-fu-li { animation-timing-function: linear; }
+//.bc-an-ti-fu-stst { animation-timing-function: step-start; }
+//.bc-an-ti-fu-sten { animation-timing-function: step-end; }
+//
+// *Animation timing function with function values were not included
+//
+// *Animation timing function with multiple values were not included
+//
+////.bc-an-ti-fu-inh { animation-timing-function: inherit; }
+//.bc-an-ti-fu-ini { animation-timing-function: initial; }
+//.bc-an-ti-fu-un { animation-timing-function: unset; }

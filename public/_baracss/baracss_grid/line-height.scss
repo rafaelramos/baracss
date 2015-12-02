@@ -1,8 +1,13 @@
+// Line height
 $font-limit: 64;
 $font-helper: 10;
 
-// Line height will have the format .lin-hei-x
 @while($font-helper <= $font-limit){
-  .lin-hei-#{$font-helper} { line-height: $font-helper + px; }
+  $lineHeightMap: (
+    bc-lin-he-#{$font-helper}: ('line-height', '#{$font-helper}px'),
+  );
+
+  $responsiveMap: map-merge($responsiveMap, $lineHeightMap);
+
   $font-helper: $font-helper + 2;
 }
