@@ -1,0 +1,111 @@
+// OBJECT FIT
+.bc-ob-fi-con { object-fit: contain; }
+.bc-ob-fi-cov { object-fit: cover; }
+.bc-ob-fi-fi { object-fit: fill; }
+.bc-ob-fi-inh { object-fit: inherit; }
+.bc-ob-fi-ini { object-fit: initial; }
+.bc-ob-fi-no { object-fit: none; }
+.bc-ob-fi-sc { object-fit: scale-down; }
+.bc-ob-fi-un { object-fit: unset; }
+
+// OBJECT POSITION
+.bc-ob-po-inh { object-position: inherit; }
+.bc-ob-po-inh { object-position: initial; }
+.bc-ob-po-inh { object-position: unset; }
+
+// OFFSET BLOCK END
+// *Not included because specification has not stabilized
+
+// OFFSET BLOCK START
+// *Not included because specification has not stabilized
+
+// OFFSET INLINE END
+// *Not included because specification has not stabilized
+
+// OFFSET INLINE START
+// *Not included because specification has not stabilized
+
+// OPACITY
+// *Included just reset values
+.bc-op-inh { opacity: inherit; }
+.bc-op-ini { opacity: initial; }
+.bc-op-un { opacity: unset; }
+
+// ORDER
+.bc-ord-inh { order: inherit; }
+.bc-ord-ini { order: initial; }
+.bc-ord-un { order: unset; }
+
+// ORIENTATION
+// *Not included because specification has not stabilized
+
+// ORPHANS
+// *Included just reset values
+.bc-orp-inh { orphans: inherit; }
+.bc-orp-ini { orphans: initial; }
+.bc-orp-un { orphans: unset; }
+
+// OUTLINE
+// *Included just reset values
+.bc-ou-inh { outline: inherit; }
+.bc-ou-ini { outline: initial; }
+.bc-ou-un { outline: unset; }
+
+// OUTLINE COLOR
+.bc-ou-co-inv { outline-color: invert; }
+.bc-ou-co-inh { outline-color: inherit; }
+.bc-ou-co-ini { outline-color: initial; }
+.bc-ou-co-un { outline-color: unset; }
+
+// OUTLINE OFFSET
+.bc-ou-of-inh { outline-offset: inherit; }
+.bc-ou-of-ini { outline-offset: initial; }
+.bc-ou-of-un { outline-offset: unset; }
+
+// OUTLINE STYLE
+.bc-ou-st-au { outline-style: auto; }
+.bc-ou-st-da { outline-style: dashed; }
+.bc-ou-st-dot { outline-style: dotted; }
+.bc-ou-st-dou { outline-style: double; }
+.bc-ou-st-gr { outline-style: groove; }
+.bc-ou-st-inh { outline-style: inherit; }
+.bc-ou-st-ini { outline-style: initial; }
+.bc-ou-st-ins { outline-style: inset; }
+.bc-ou-st-no { outline-style: none; }
+.bc-ou-st-ou { outline-style: outset; }
+.bc-ou-st-ri { outline-style: ridge; }
+.bc-ou-st-so { outline-style: solid; }
+.bc-ou-st-un { outline-style: unset; }
+
+// OUTLINE WIDTH
+.bc-ou-wi-thin { outline-width: thin; }
+.bc-ou-wi-me { outline-width: medium; }
+.bc-ou-wi-thic { outline-width: thick; }
+.bc-ou-wi-in { outline-width: inherit; }
+
+// OVERFLOW
+.bc-ov-au { overflow: auto; }
+.bc-ov-hi { overflow: hidden; }
+.bc-ov-inh { overflow: inherit; }
+.bc-ov-ini { overflow: initial; }
+.bc-ov-sc { overflow: scroll; }
+.bc-ov-un { overflow: unset; }
+.bc-ov-vi { overflow: visible; }
+
+// OVERFLOW X
+.bc-ov-x-au { overflow: auto; }
+.bc-ov-x-hi { overflow: hidden; }
+.bc-ov-x-inh { overflow: inherit; }
+.bc-ov-x-ini { overflow: initial; }
+.bc-ov-x-sc { overflow: scroll; }
+.bc-ov-x-un { overflow: unset; }
+.bc-ov-x-vi { overflow: visible; }
+
+// OVERFLOW Y
+.bc-ov-y-au { overflow: auto; }
+.bc-ov-y-hi { overflow: hidden; }
+.bc-ov-y-inh { overflow: inherit; }
+.bc-ov-y-ini { overflow: initial; }
+.bc-ov-y-sc { overflow: scroll; }
+.bc-ov-y-un { overflow: unset; }
+.bc-ov-y-vi { overflow: visible; }

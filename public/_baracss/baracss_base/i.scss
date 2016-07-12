@@ -1,0 +1,40 @@
+// IMAGE ORIENTATION
+// *Not included because of the lack of support in different browsers.
+
+// IMAGE RENDERING
+.bc-ima-re-au { image-rendering: auto; }
+.bc-ima-re-cr-ed { image-rendering: crisp-edges; }
+.bc-ima-re-inh { image-rendering: inherit; }
+.bc-ima-re-ini { image-rendering: initial; }
+.bc-ima-re-pi { image-rendering: pixelated; }
+.bc-ima-re-un { image-rendering: unset; }
+
+// IME MODE
+.bc-ime-mo-ac {ime-mode: active; }
+.bc-ime-mo-au {ime-mode: auto; }
+.bc-ime-mo-di {ime-mode: disabled; }
+.bc-ime-mo-in {ime-mode: inactive; }
+.bc-ime-mo-inh {ime-mode: inherit; }
+.bc-ime-mo-ini {ime-mode: initial; }
+.bc-ime-mo-no {ime-mode: normal; }
+.bc-ime-mo-un {ime-mode: unset; }
+
+// INLINE SIZE
+.bc-in-si-au { inline-size: auto; }
+.bc-in-si-av { inline-size: available; }
+.bc-in-si-bo-bo { inline-size: border-box; }
+.bc-in-si-co-bo { inline-size: content-box; }
+.bc-in-si-fi-co { inline-size: fit-content; }
+.bc-in-si-inh { inline-size: inherit; }
+.bc-in-si-ini { inline-size: initial; }
+.bc-in-si-ma-co { inline-size: max-content; }
+.bc-in-si-mi-co { inline-size: min-content; }
+.bc-in-si-un { inline-size: unset; }
+
+// ISOLATION
+.bc-is-au { isolation: auto; }
+.bc-is-inh { isolation: inherit; }
+.bc-is-ini { isolation: initial; }
+.bc-is-is { isolation: isolate; }
+.bc-is-un { isolation: unset; }
+

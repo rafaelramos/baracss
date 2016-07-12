@@ -1,0 +1,100 @@
+// GRID
+.bc-gr-co { grid: column; }
+.bc-gr-de { grid: dense; }
+.bc-gr-inh { grid: inherit; }
+.bc-gr-ini { grid: initial; }
+.bc-gr-no { grid: none; }
+.bc-gr-ro { grid: row; }
+.bc-gr-su { grid: subgrid; }
+.bc-gr-un { grid: unset; }
+
+// GRID AREA
+.bc-gr-ar-au { grid-area: auto; }
+.bc-gr-ar-inh { grid-area: inherit; }
+.bc-gr-ar-ini { grid-area: initial; }
+.bc-gr-ar-un { grid-area: unset; }
+
+// GRID AUTO COLUMNS
+.bc-gr-au-co-au { grid-auto-columns: auto; }
+.bc-gr-au-co-inh { grid-auto-columns: inherit; }
+.bc-gr-au-co-ini { grid-auto-columns: initial; }
+.bc-gr-au-co-ma-co { grid-auto-columns: max-content; }
+.bc-gr-au-co-mi-co { grid-auto-columns: min-content; }
+.bc-gr-au-co-un { grid-auto-columns: unset; }
+
+// GRID AUTO ROWS
+.bc-gr-au-ro-mi-co { grid-auto-rows: min-content; }
+.bc-gr-au-ro-ma-co { grid-auto-rows: max-content; }
+.bc-gr-au-ro-au { grid-auto-rows: auto; }
+.bc-gr-au-ro-inh { grid-auto-rows: inherit; }
+.bc-gr-au-ro-ini { grid-auto-rows: initial; }
+.bc-gr-au-ro-un { grid-auto-rows: unset; }
+
+// GRID COLUMN
+.bc-gr-co-au { grid-column: auto; }
+.bc-gr-co-inh { grid-column: inherit; }
+.bc-gr-co-ini { grid-column: initial; }
+.bc-gr-co-un { grid-column: unset; }
+
+// GRID COLUMN END
+.bc-gr-co-en-au { grid-column-end: auto; }
+.bc-gr-co-en-inh { grid-column-end: inherit; }
+.bc-gr-co-en-ini { grid-column-end: initial; }
+.bc-gr-co-en-un { grid-column-end: unset; }
+
+// GRID COLUMN START
+.bc-gr-co-st-au { grid-column-start: auto; }
+.bc-gr-co-st-inh { grid-column-start: inherit; }
+.bc-gr-co-st-ini { grid-column-start: initial; }
+.bc-gr-co-st-un { grid-column-start: unset; }
+
+// GRID GAP
+.bc-gr-ga-inh { grid-gap: inherit; }
+.bc-gr-ga-ini { grid-gap: initial; }
+.bc-gr-ga-un { grid-gap: unset; }
+
+// GRID ROW
+.bc-gr-ro-au { grid-row: auto; }
+.bc-gr-ro-inh { grid-row: inherit; }
+.bc-gr-ro-ini { grid-row: initial; }
+.bc-gr-ro-un { grid-row: unset; }
+
+// GRID ROW END
+.bc-gr-ro-en-au { grid-row-end: auto; }
+.bc-gr-ro-en-inh { grid-row-end: inherit; }
+.bc-gr-ro-en-ini { grid-row-end: initial; }
+.bc-gr-ro-en-un { grid-row-end: unset; }
+
+// GRID ROW GAP
+.bc-gr-ro-ga-inh { grid-row-gap: inherit; }
+.bc-gr-ro-ga-ini { grid-row-gap: initial; }
+.bc-gr-ro-ga-un { grid-row-gap: unset; }
+
+// GRID ROW START
+.bc-gr-ro-st-inh { grid-row-start: inherit; }
+.bc-gr-ro-st-ini { grid-row-start: initial; }
+.bc-gr-ro-ga-un { grid-row-start: unset; }
+
+// GRID TEMPLATE
+.bc-gr-te-no { grid-template: none; }
+.bc-gr-te-inh { grid-template: inherit; }
+.bc-gr-te-ini { grid-template: initial; }
+.bc-gr-te-un { grid-template: unset; }
+
+// GRID TEMPLATE AREAS
+.bc-gr-te-ar-no { grid-template-areas: none; }
+.bc-gr-te-ar-inh { grid-template-areas: inherit; }
+.bc-gr-te-ar-ini { grid-template-areas: initial; }
+.bc-gr-te-ar-un { grid-template-areas: unset; }
+
+// GRID TEMPLATE COLUMNS
+.bc-gr-te-co-no { grid-template-columns: none; }
+.bc-gr-te-co-inh { grid-template-columns: inherit; }
+.bc-gr-te-co-ini { grid-template-columns: initial; }
+.bc-gr-te-co-un { grid-template-columns: unset; }
+
+// GRID TEMPLATE ROWS
+.bc-gr-te-ro-no { grid-template-rows: none; }
+.bc-gr-te-ro-no { grid-template-rows: inherit; }
+.bc-gr-te-ro-no { grid-template-rows: initial; }
+.bc-gr-te-ro-no { grid-template-rows: unset; }

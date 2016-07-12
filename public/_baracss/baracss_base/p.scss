@@ -1,0 +1,104 @@
+// PADDING
+// *Included just reset values
+.bc-pad-inh { padding: inherit; }
+.bc-pad-ini { padding: initial; }
+.bc-pad-un { padding: unset; }
+
+// PADDING BLOCK END
+// *Not included because specification has not stabilized
+
+// PADDING BLOCK START
+// *Not included because specification has not stabilized
+
+// PADDING BOTTOM
+// *Included just reset values
+.bc-pad-bo-inh { padding-bottom: inherit; }
+.bc-pad-bo-ini { padding-bottom: initial; }
+.bc-pad-bo-un { padding-bottom: unset; }
+
+// PADDING INLINE END
+// *Not included because specification has not stabilized
+
+// PADDING INLINE START
+// *Not included because specification has not stabilized
+
+// PADDING LEFT
+// *Included just reset values
+.bc-pad-le-inh { padding-left: inherit; }
+.bc-pad-le-ini { padding-left: initial; }
+.bc-pad-le-un { padding-left: unset; }
+
+// PADDING RIGHT
+// *Included just reset values
+.bc-pad-ri-inh { padding-right: inherit; }
+.bc-pad-ri-ini { padding-right: initial; }
+.bc-pad-ri-un { padding-right: unset; }
+
+// PADDING TOP
+// *Included just reset values
+.bc-pad-to-inh { padding-top: inherit; }
+.bc-pad-to-ini { padding-top: initial; }
+.bc-pad-to-un { padding-top: unset; }
+
+// PAGE BREAK AFTER
+.bc-pag-br-af-al { page-break-after: always; }
+.bc-pag-br-af-au { page-break-after: auto; }
+.bc-pag-br-af-av { page-break-after: avoid; }
+.bc-pag-br-af-inh { page-break-after: inherit; }
+.bc-pag-br-af-ini { page-break-after: initial; }
+.bc-pag-br-af-le { page-break-after: left; }
+.bc-pag-br-af-ri { page-break-after: right; }
+.bc-pag-br-af-un { page-break-after: unset; }
+
+// PAGE BREAK BEFORE
+.bc-pag-br-be-al { page-break-before: always; }
+.bc-pag-br-be-au { page-break-before: auto; }
+.bc-pag-br-be-av { page-break-before: avoid; }
+.bc-pag-br-be-inh { page-break-before: inherit; }
+.bc-pag-br-be-ini { page-break-before: initial; }
+.bc-pag-br-be-le { page-break-before: left; }
+.bc-pag-br-be-ri { page-break-before: right; }
+.bc-pag-br-be-un { page-break-before: unset; }
+
+// PAGE BREAK INSIDE
+.bc-pag-br-in-au { page-break-inside: auto; }
+.bc-pag-br-in-av { page-break-inside: avoid; }
+.bc-pag-br-in-inh { page-break-inside: inherit; }
+.bc-pag-br-in-ini { page-break-inside: initial; }
+.bc-pag-br-in-un { page-break-inside: unset; }
+
+// PERSPECTIVE
+// *Included just reset values
+.bc-pe-inh { perspective: inherit; }
+.bc-pe-ini { perspective: initial; }
+.bc-pe-no { perspective: none; }
+.bc-pe-un { perspective: unset; }
+
+// PERSPECTIVE
+// *Not included because it has a large amount of values
+
+// POINTER EVENTS
+.bc-poi-ev-au { pointer-events: auto; }
+.bc-poi-ev-al { pointer-events: all; }
+.bc-poi-ev-fi { pointer-events: fill; }
+.bc-poi-ev-inh { pointer-events: inherit; }
+.bc-poi-ev-ini { pointer-events: initial; }
+.bc-poi-ev-no { pointer-events: none; }
+.bc-poi-ev-pa { pointer-events: painted; }
+.bc-poi-ev-st { pointer-events: stroke; }
+.bc-poi-ev-un { pointer-events: unset; }
+.bc-poi-ev-vi { pointer-events: visible; }
+.bc-poi-ev-viPa { pointer-events: visiblePainted; }
+.bc-poi-ev-viFi { pointer-events: visibleFill; }
+.bc-poi-ev-viSt { pointer-events: visibleStroke; }
+
+// POSITION
+.bc-pos-ab { position: absolute; }
+.bc-pos-fi { position: fixed; }
+.bc-pos-inh { position: inherit; }
+.bc-pos-ini { position: initial; }
+.bc-pos-re { position: relative; }
+.bc-pos-sta { position: static; }
+//.bc-pos-sti { position: sticky; }
+.bc-pos-un { position: unset; }
+

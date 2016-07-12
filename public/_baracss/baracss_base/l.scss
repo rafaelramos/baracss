@@ -1,0 +1,45 @@
+// LEFT
+.bc-lef-au { left: auto; }
+.bc-lef-inh { left: inherit; }
+.bc-lef-ini { left: initial; }
+.bc-lef-un { left: unset; }
+
+// LETTER SPACING
+.bc-let-sp-inh { letter-spacing: inherit; }
+.bc-let-sp-ini { letter-spacing: initial; }
+.bc-let-sp-no { letter-spacing: normal; }
+.bc-let-sp-un { letter-spacing: unset; }
+
+// LINE BREAK
+.bc-lin-br-au { line-break: auto; }
+.bc-lin-br-inh { line-break: inherit; }
+.bc-lin-br-ini { line-break: initial; }
+.bc-lin-br-lo { line-break: loose; }
+.bc-lin-br-no { line-break: normal; }
+.bc-lin-br-st { line-break: strict; }
+.bc-lin-br-un { line-break: unset; }
+
+// LINE HEIGHT
+.bc-lin-he-no { line-height: normal; }
+.bc-lin-he-inh { line-height: inherit; }
+.bc-lin-he-ini { line-height: initial; }
+.bc-lin-he-un { line-height: unset; }
+
+// LIST STYLE
+// *Not included because it has a large amount of values
+
+// LIST STYLE IMAGE
+.bc-lis-st-im-inh { list-style-image: inherit; }
+.bc-lis-st-im-ini { list-style-image: initial; }
+.bc-lis-st-im-no { list-style-image: none; }
+.bc-lis-st-im-un { list-style-image: unset; }
+
+// LIST STYLE POSITION
+.bc-lis-st-po-ins { list-style-position: inside; }
+.bc-lis-st-po-inh { list-style-position: inherit; }
+.bc-lis-st-po-ini { list-style-position: initial; }
+.bc-lis-st-po-un { list-style-position: unset; }
+.bc-lis-st-po-ou { list-style-position: outside; }
+
+// LIST STYLE TYPE
+.bc-lis-st-ty-no { list-style-type: none; }

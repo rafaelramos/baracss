@@ -1,0 +1,43 @@
+// White Space
+.bc-wh-sp-nor { white-space: normal; }
+.bc-wh-sp-now { white-space: nowrap; }
+.bc-wh-sp-pr { white-space: pre; }
+.bc-wh-sp-pr-wr { white-space: pre-wrap; }
+.bc-wh-sp-pr-li { white-space: pre-line; }
+.bc-wh-sp-inh { white-space: inherit; }
+.bc-wh-sp-ini { white-space: initial; }
+.bc-wh-sp-un { white-space: unset; }
+
+// Width
+.bc-wi-au { width: auto; }
+.bc-wi-av { width: available; }
+.bc-wi-fi-co { width: fit-content; }
+.bc-wi-inh { width: inherit; }
+.bc-wi-ini { width: initial; }
+.bc-wi-ma-co { width: max-content; }
+.bc-wi-mi-co { width: min-content; }
+.bc-wi-un { width: unset; }
+
+// Will Change: NOPE
+
+// Word Break
+.bc-wo-br-no { word-break: normal; }
+.bc-wo-br-br-al { word-break: break-all; }
+.bc-wo-br-ke-al { word-break: keep-all; }
+.bc-wo-br-inh { word-break: inherit; }
+.bc-wo-br-ini { word-break: initial; }
+.bc-wo-br-un { word-break: unset; }
+
+// Word Spacing
+.bc-wo-sp-no { word-spacing: normal; }
+.bc-wo-sp-inh { word-spacing: inherit; }
+.bc-wo-sp-ini { word-spacing: initial; }
+.bc-wo-sp-un { word-spacing: unset; }
+
+// Writing Mode
+.bc-wr-mo-ho-tb { writing-mode: horizontal-tb; }
+.bc-wr-mo-inh { writing-mode: inherit; }
+.bc-wr-mo-ini { writing-mode: initial; }
+.bc-wr-mo-un { writing-mode: unset; }
+.bc-wr-mo-ve-lr { writing-mode: vertical-lr; }
+.bc-wr-mo-ve-rl { writing-mode: vertical-rl; }
