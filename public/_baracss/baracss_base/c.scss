@@ -1,60 +1,41 @@
 // CAPTION SIDE
 .bc-ca-si-bo { caption-side: bottom; }
 .bc-ca-si-to { caption-side: top; }
-//
-//.bc-ca-si-inh { caption-side: inherit; }
+.bc-ca-si-inh { caption-side: inherit; }
 .bc-ca-si-ini { caption-side: initial; }
 .bc-ca-si-un { caption-side: unset; }
 
 // CLEAR
-.bc-cle-bo { clear: both; }
-.bc-cle-inst { clear: inline-start; }
-.bc-cle-inen { clear: inline-end; }
-.bc-cle-le { clear: left; }
-.bc-cle-no { clear: none; }
-.bc-cle-ri { clear: right; }
-//
-//.bc-cle-inh { clear: inherit; }
+.bc-cl-bo { clear: both; }
+.bc-cl-in-st { clear: inline-start; }
+.bc-cl-in-en { clear: inline-end; }
+.bc-cl-le { clear: left; }
+.bc-cl-no { clear: none; }
+.bc-cl-ri { clear: right; }
+.bc-cle-inh { clear: inherit; }
 
-// CLIP
-// *Not included because it is deprecated
+// CLIP: NOPE
 
-// CLIP PATH
-// *Not included because it has a large amount of values and specification has not stabilized
-//.bc-cli-pa-no { clip-path: none; }
-//.bc-cli-pa-fi { clip-path: fill-box; }
-//.bc-cli-pa-stbo { clip-path: stroke-box; }
-//.bc-cli-pa-vibo { clip-path: view-box; }
-////
-////.bc-cli-pa-inh { clip-path: inherit; }
-//.bc-cli-pa-ini { clip-path: initial; }
-//.bc-cli-pa-un { clip-path: unset; }
+// CLIP PATH: NOPE
 
-// COLOR
-// *Not included because it has a large amount of values
+// COLOR: NOPE
 
-// COLUMNS
-// *Not included because it has a large amount of values
+// COLUMNS: NOPE
 
-// COLUMN COUNT
-// *Not included because it has a large amount of values
+// COLUMN COUNT: NOPE
 
 // COLUMN FILL
 .bc-co-fi { column-fill: auto; }
 .bc-co-ba { column-fill: balance; }
-//
-//.bc-co-inh { column-fill: inherit; }
+.bc-co-inh { column-fill: inherit; }
 .bc-co-ini { column-fill: initial; }
 .bc-co-un { column-fill: unset; }
 
-// COLUMN GAP
-// *Not included because it has a large amount of values
+// COLUMN GAP: NOPE
 
-// COLUMN RULE
-// *Not included because it has a large amount of values
+// COLUMN RULE: NOPE
 
-// COLUMN RULE COLOR
-// *Not included because it has a large amount of values
+// COLUMN RULE COLOR: NOPE
 
 // COLUMN RULE STYLE
 .bc-co-ru-st-da { column-rule-style: dashed; }
@@ -67,79 +48,71 @@
 .bc-co-ru-st-ou { column-rule-style: outset; }
 .bc-co-ru-st-ri { column-rule-style: ridge; }
 .bc-co-ru-st-so { column-rule-style: solid; }
-//
-//.bc-co-ru-st-inh { column-rule-style: inherit; }
+.bc-co-ru-st-inh { column-rule-style: inherit; }
 .bc-co-ru-st-ini { column-rule-style: initial; }
 .bc-co-ru-st-un { column-rule-style: unset; }
 
 // COLUMN RULE WIDTH
-// *Just included keyword and reset values
 .bc-co-ru-wi-thin { column-rule-width: thin; }
 .bc-co-ru-wi-me { column-rule-width: medium; }
 .bc-co-ru-wi-thic { column-rule-width: thick; }
-//
-//.bc-co-ru-wi-inh { column-rule-width: inherit; }
+.bc-co-ru-wi-inh { column-rule-width: inherit; }
 .bc-co-ru-wi-ini { column-rule-width: initial; }
 .bc-co-ru-wi-un { column-rule-width: unset; }
 
 // COLUMN SPAN
 .bc-co-sp-al { column-span: all; }
 .bc-co-sp-no { column-span: none; }
-//
-//.bc-co-sp-inh { column-span: inherit; }
+.bc-co-sp-inh { column-span: inherit; }
 .bc-co-sp-ini { column-span: initial; }
 .bc-co-sp-un { column-span: unset; }
 
 // COLUMN WIDTH
 .bc-co-wi { column-width: auto; }
-//
-//.bc-co-wi { column-width: inherit; }
+.bc-co-wi { column-width: inherit; }
 .bc-co-wi { column-width: initial; }
 .bc-co-wi { column-width: unset; }
 
-// CONTENT
-// *Not included because it has a large amount of values
+// CONTENT: NOPE
 
-// COUNTER INCREMENT
-// *Not included because it has a large amount of values
+// COUNTER INCREMENT: NOPE
 
-// COUNTER RESET
-// *Not included because it has a large amount of values
+// COUNTER RESET: NOPE
 
 // CURSOR
 .bc-cu-al { cursor: alias; }
-.bc-cu-alsc { cursor: all-scroll; }
+.bc-cu-al-sc { cursor: all-scroll; }
 .bc-cu-au { cursor: auto; }
 .bc-cu-ce { cursor: cell; }
 .bc-cu-co { cursor: copy; }
-.bc-cu-col-re { cursor: col-resize; }
-.bc-cu-come { cursor: context-menu; }
+.bc-cu-co-re { cursor: col-resize; }
+.bc-cu-co-me { cursor: context-menu; }
 .bc-cu-cr { cursor: crosshair; }
 .bc-cu-de { cursor: default; }
 .bc-cu-e-re { cursor: e-resize; }
 .bc-cu-ew-re { cursor: ew-resize; }
 .bc-cu-gr { cursor: grab; }
-.bc-cu-gring { cursor: grabbing; }
+.bc-cu-grg { cursor: grabbing; }
 .bc-cu-he { cursor: help; }
 .bc-cu-mo { cursor: move; }
 .bc-cu-n-re { cursor: n-resize; }
 .bc-cu-ne-re { cursor: ne-resize; }
 .bc-cu-nesw-re { cursor: nesw-resize; }
 .bc-cu-no { cursor: none; }
-.bc-cu-noal { cursor: not-allowed; }
-.bc-cu-nodr { cursor: no-drop; }
+.bc-cu-no-al { cursor: not-allowed; }
+.bc-cu-no-dr { cursor: no-drop; }
 .bc-cu-ns-re { cursor: ns-resize; }
 .bc-cu-nw-re { cursor: nw-resize; }
 .bc-cu-nwse-re { cursor: nwse-resize; }
 .bc-cu-po { cursor: pointer; }
 .bc-cu-pr { cursor: progress; }
-.bc-cu-row-re { cursor: row-resize; }
+.bc-cu-ro-re { cursor: row-resize; }
 .bc-cu-s-re { cursor: s-resize; }
 .bc-cu-se-re { cursor: se-resize; }
 .bc-cu-sw-re { cursor: sw-resize; }
 .bc-cu-te { cursor: text; }
-.bc-cu-vete { cursor: vertical-text; }
+.bc-cu-ve-te { cursor: vertical-text; }
 .bc-cu-w-re { cursor: w-resize; }
 .bc-cu-wa { cursor: wait; }
-.bc-cu-zoin { cursor: zoom-in; }
-.bc-cu-zoou { cursor: zoom-out; }
+.bc-cu-zo-in { cursor: zoom-in; }
+.bc-cu-zo-ou { cursor: zoom-out; }

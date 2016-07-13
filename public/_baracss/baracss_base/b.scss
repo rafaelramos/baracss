@@ -1,47 +1,36 @@
-// BACKFACE VISIBILITY
-// *Not included because specification has not stabilized
-//.bc-bac-vi-hi { backface-visibility: hidden; }
-//.bc-bac-vi-vi { backface-visibility: visible; }
+// BACKFACE VISIBILITY: NOPE
 
-// BACKGROUND
-// *Not included because it has a large amount of values
+// BACKGROUND: NOPE
 
 // BACKGROUND ATTACHMENT
 .bc-ba-at-fi { background-attachment: fixed; }
+.bc-ba-at-in { background-attachment: inherit; }
 .bc-ba-at-lo { background-attachment: local; }
 .bc-ba-at-sc { background-attachment: scroll; }
-//
-//.bc-ba-at-in { background-attachment: inherit; }
 
 // BACKGROUND BLEND MODE
-// *Included just reset values
-//.bc-ba-bl-mo-inh { background-blend-mode: inherit; }
+.bc-ba-bl-mo-inh { background-blend-mode: inherit; }
 .bc-ba-bl-mo-ini { background-blend-mode: initial; }
 .bc-ba-bl-mo-no { background-blend-mode: normal; }
 .bc-ba-bl-mo-un { background-blend-mode: unset; }
 
 // BACKGROUND CLIP
-.bc-ba-cl-bbx { background-clip: border-box; }
-.bc-ba-cl-cbx { background-clip: content-box; }
-.bc-ba-cl-pbx { background-clip: padding-box; }
-//
-//.bc-ba-cl-pbx { background-clip: inherit; }
+.bc-ba-cl-bo-bo { background-clip: border-box; }
+.bc-ba-cl-co-bo { background-clip: content-box; }
+.bc-ba-cl-in { background-clip: inherit; }
+.bc-ba-cl-pa-bo { background-clip: padding-box; }
 
-// BACKGROUND COLOR
-// *Not included because it has a large amount of values
+// BACKGROUND COLOR: NOPE
 
 // BACKGROUND IMAGE
-// *Included just reset value
 .bc-ba-im-no { background-image: none; }
-//
-//.bc-ba-im-inh { background-image: inherit; }
+.bc-ba-im-in { background-image: inherit; }
 
 // BACKGROUND ORIGIN
-.bc-ba-or-bbx { background-origin: border-box; }
-.bc-ba-or-cbx { background-origin: content-box; }
-.bc-ba-or-pbx { background-origin: padding-box; }
-//
-//.bc-ba-or-pbx { background-origin: inherit; }
+.bc-ba-or-bo-bo { background-origin: border-box; }
+.bc-ba-or-co-bo { background-origin: content-box; }
+.bc-ba-or-pa-bo { background-origin: padding-box; }
+.bc-ba-or-in { background-origin: inherit; }
 
 // BACKGROUND POSITION
 // *Included just some position combinations
@@ -57,296 +46,204 @@
 
 // BACKGROUND REPEAT
 .bc-ba-re-re { background-repeat: repeat; }
-.bc-ba-re-rex { background-repeat: repeat-x; }
-.bc-ba-re-rey { background-repeat: repeat-y; }
+.bc-ba-re-re-x { background-repeat: repeat-x; }
+.bc-ba-re-re-y { background-repeat: repeat-y; }
 .bc-ba-re-ro { background-repeat: round; }
 .bc-ba-re-sp { background-repeat: space; }
-.bc-ba-re-no { background-repeat: no-repeat; }
-//
-.bc-ba-re-noro { background-repeat: no-repeat round; }
-.bc-ba-re-rere { background-repeat: repeat repeat; }
-.bc-ba-re-resp { background-repeat: repeat space; }
-.bc-ba-re-rosp { background-repeat: round space; }
-//
-//.bc-ba-re-in { background-repeat: inherit; }
+.bc-ba-re-no-re { background-repeat: no-repeat; }
+.bc-ba-re-in { background-repeat: inherit; }
 
 // BACKGROUND SIZE
-// *Included just keyword and reset values
 .bc-ba-si-con { background-size: contain; }
 .bc-ba-si-cov { background-size: cover; }
-//
-//.bc-ba-si-inh { background-size: inherit; }
+.bc-ba-si-inh { background-size: inherit; }
 .bc-ba-si-ini { background-size: initial; }
 .bc-ba-si-un { background-size: unset; }
 
-// BLOCK SIZE
-// *Not included because specification has not stabilized
-//.bc-bl-si-au { block-size: auto; };
-//.bc-bl-si-av { block-size: available; };
-//.bc-bl-si-bobo { block-size: border-box; };
-//.bc-bl-si-cobo { block-size: content-box; };
-//.bc-bl-si-fico { block-size: fit-content; };
-//.bc-bl-si-maco { block-size: max-content; };
-//.bc-bl-si-mico { block-size: min-content; };
-//
-////.bc-bl-si-inh { block-size: inherit; };
-//.bc-bl-si-ini { block-size: initial; };
-//.bc-bl-si-un { block-size: unset; };
+// BLOCK SIZE: NOPE
 
-// BORDER
-// *Not included because it has a large amount of values
+// BORDER: NOPE
 
-// BORDER BLOCK END
-// *Not included because it has a large amount of values and specification has not stabilized
+// BORDER BLOCK END: NOPE
 
-// BORDER BLOCK END COLOR
-// *Not included because it has a large amount of values and specification has not stabilized
+// BORDER BLOCK END COLOR: NOPE
 
-// BORDER BLOCK END STYLE
-// *Not included because specification has not stabilized
-//.bc-bor-bl-en-st-da { border-block-end-style: dashed; }
-//.bc-bor-bl-en-st-do { border-block-end-style: dotted; }
-//.bc-bor-bl-en-st-gr { border-block-end-style: groove; }
+// BORDER BLOCK END STYLE: NOPE
 
-// BORDER BLOCK END WIDTH
-// *Not included because it has a large amount of values and specification has not stabilized
+// BORDER BLOCK END WIDTH: NOPE
 
-// BORDER BLOCK START
-// *Not included because it has a large amount of values and specification has not stabilized
+// BORDER BLOCK START: NOPE
 
-// BORDER BLOCK START COLOR
-// *Not included because it has a large amount of values and specification has not stabilized
+// BORDER BLOCK START COLOR: NOPE
 
-// BORDER BLOCK START STYLE
-// *Not included because specification has not stabilized
-//.bc-bor-bl-st-st-da { border-block-start-style: dashed; }
-//.bc-bor-bl-st-st-do { border-block-start-style: dotted; }
-//.bc-bor-bl-st-st-gr { border-block-start-style: groove; }
+// BORDER BLOCK START STYLE: NOPE
 
-// BORDER BLOCK START WIDTH
-// *Not included because it has a large amount of values and specification has not stabilized
+// BORDER BLOCK START WIDTH: NOPE
 
-// BORDER BOTTOM
-// *Not included because it has a large amount of values
+// BORDER BOTTOM: NOPE
 
-// BORDER BOTTOM COLORS
-// *Not included because it has a large amount of values
+// BORDER BOTTOM COLORS: NOPE
 
-// BORDER BOTTOM LEFT RADIUS
-// *Not included because it has a large amount of values
+// BORDER BOTTOM LEFT RADIUS: NOPE
 
-// BORDER BOTTOM RIGHT RADIUS
-// *Not included because it has a large amount of values
+// BORDER BOTTOM RIGHT RADIUS: NOPE
 
 // BORDER BOTTOM STYLE
-.bc-bor-bo-st-da { border-bottom-style: dashed; }
-.bc-bor-bo-st-dot { border-bottom-style: dotted; }
-.bc-bor-bo-st-dou { border-bottom-style: double; }
-.bc-bor-bo-st-gr { border-bottom-style: groove; }
-.bc-bor-bo-st-hi { border-bottom-style: hidden; }
-.bc-bor-bo-st-ins { border-bottom-style: inset; }
-.bc-bor-bo-st-no { border-bottom-style: none; }
-.bc-bor-bo-st-ou { border-bottom-style: outset; }
-.bc-bor-bo-st-ri { border-bottom-style: ridge; }
-.bc-bor-bo-st-so { border-bottom-style: solid; }
-//
-//.bc-bor-bo-st-inh { border-bottom-style: inherit; }
+.bc-bo-bo-st-da { border-bottom-style: dashed; }
+.bc-bo-bo-st-dot { border-bottom-style: dotted; }
+.bc-bo-bo-st-dou { border-bottom-style: double; }
+.bc-bo-bo-st-gr { border-bottom-style: groove; }
+.bc-bo-bo-st-hi { border-bottom-style: hidden; }
+.bc-bo-bo-st-ins { border-bottom-style: inset; }
+.bc-bo-bo-st-no { border-bottom-style: none; }
+.bc-bo-bo-st-ou { border-bottom-style: outset; }
+.bc-bo-bo-st-ri { border-bottom-style: ridge; }
+.bc-bo-bo-st-so { border-bottom-style: solid; }
+.bc-bo-bo-st-inh { border-bottom-style: inherit; }
 
 // BORDER BOTTOM WIDTH
-// *Just included keyword values
-.bc-bor-bo-wi-me { border-bottom-width: medium; }
-.bc-bor-bo-wi-thic { border-bottom-width: thick; }
-.bc-bor-bo-wi-thin { border-bottom-width: thin; }
-//
-//.bc-bor-bo-wi-in { border-bottom-width: inherit; }
+.bc-bo-bo-wi-me { border-bottom-width: medium; }
+.bc-bo-bo-wi-thic { border-bottom-width: thick; }
+.bc-bo-bo-wi-thin { border-bottom-width: thin; }
+.bc-bo-bo-wi-in { border-bottom-width: inherit; }
 
 // BORDER COLLAPSE
-.bc-bor-co-co { border-collapse: collapse; }
-.bc-bor-co-se { border-collpase: separate; }
-//
-//.bc-bor-co-in { border-collapse: inherit; }
+.bc-bo-co-co { border-collapse: collapse; }
+.bc-bo-co-se { border-collpase: separate; }
+.bc-bo-co-in { border-collapse: inherit; }
 
-// BORDER COLOR
-// *Not included because it has a large amount of values
+// BORDER COLOR: NOPE
 
-// BORDER IMAGE
-// *Not included because it has a large amount of values
+// BORDER IMAGE: NOPE
 
-// BORDER IMAGE OUTSET
-// *Not included because it has a large amount of values
+// BORDER IMAGE OUTSET: NOPE
 
-// BORDER IMAGE REPEAT
-// *TODO: Not included because I didn't get how to use it correctly
-// https://developer.mozilla.org/en-US/docs/Web/CSS/border-image-repeat
-//.bc-bo-im-va-inh { border-image-repeat: inherit; }
-//.bc-bo-im-va-ini { border-image-repeat: initial; }
-//.bc-bo-im-va-un { border-image-repeat: unset; }
+// BORDER IMAGE REPEAT: NOPE
 
-// BORDER IMAGE SLICE
-// *Not included because it has a large amount of values
+// BORDER IMAGE SLICE: NOPE
 
-// BORDER IMAGE SOURCE
-// *Not included because it has a large amount of values
+// BORDER IMAGE SOURCE: NOPE
 
-// BORDER IMAGE WIDTH
-// *Not included because it has a large amount of values
+// BORDER IMAGE WIDTH: NOPE
 
-// BORDER INLINE END
-// *Not included because it has a large amount of values and specification has not stabilized
+// BORDER INLINE END: NOPE
 
-// BORDER INLINE END COLOR
-// *Not included because it has a large amount of values and specification has not stabilized
+// BORDER INLINE END COLOR: NOPE
 
-// BORDER INLINE END STYLE
-// *Not included because specification has not stabilized
+// BORDER INLINE END STYLE: NOPE
 
-// BORDER INLINE END WIDTH
-// *Not included because it has a large amount of values and specification has not stabilized
+// BORDER INLINE END WIDTH: NOPE
 
-// BORDER INLINE START
-// *Not included because it has a large amount of values and specification has not stabilized
+// BORDER INLINE START: NOPE
 
-// BORDER INLINE START COLOR
-// *Not included because it has a large amount of values and specification has not stabilized
+// BORDER INLINE START COLOR: NOPE
 
-// BORDER INLINE START STYLE
-// *Not included because specification has not stabilized
+// BORDER INLINE START STYLE: NOPE
 
-// BORDER INLINE START WIDTH
-// *Not included because it has a large amount of values and specification has not stabilized
+// BORDER INLINE START WIDTH: NOPE
 
-// BORDER LEFT
-// *Not included because it has a large amount of values
+// BORDER LEFT: NOPE
 
-// BORDER LEFT COLOR
-// *Not included because it has a large amount of values
+// BORDER LEFT COLOR: NOPE
 
 // BORDER LEFT STYLE
-.bc-bor-le-st-da { border-left-style: dashed; }
-.bc-bor-le-st-dot { border-left-style: dotted; }
-.bc-bor-le-st-dou { border-left-style: double; }
-.bc-bor-le-st-gr { border-left-style: groove; }
-.bc-bor-le-st-hi { border-left-style: hidden; }
-.bc-bor-le-st-ins { border-left-style: inset; }
-.bc-bor-le-st-no { border-left-style: none; }
-.bc-bor-le-st-ou { border-left-style: outset; }
-.bc-bor-le-st-ri { border-left-style: ridge; }
-.bc-bor-le-st-so { border-left-style: solid; }
-//
-//.bc-bor-le-st-inh { border-left-style: inherit; }
+.bc-bo-le-st-da { border-left-style: dashed; }
+.bc-bo-le-st-dot { border-left-style: dotted; }
+.bc-bo-le-st-dou { border-left-style: double; }
+.bc-bo-le-st-gr { border-left-style: groove; }
+.bc-bo-le-st-hi { border-left-style: hidden; }
+.bc-bo-le-st-ins { border-left-style: inset; }
+.bc-bo-le-st-no { border-left-style: none; }
+.bc-bo-le-st-ou { border-left-style: outset; }
+.bc-bo-le-st-ri { border-left-style: ridge; }
+.bc-bo-le-st-so { border-left-style: solid; }
+.bc-bor-le-st-inh { border-left-style: inherit; }
 
 // BORDER LEFT WIDTH
-// *Just included keyword values
-.bc-bor-le-wi-me { border-left-width: medium; }
-.bc-bor-le-wi-thic { border-left-width: thick; }
-.bc-bor-le-wi-thin { border-left-width: thin; }
-//
-//.bc-bor-le-wi-in { border-left-width: inherit; }
+.bc-bo-le-wi-me { border-left-width: medium; }
+.bc-bo-le-wi-thic { border-left-width: thick; }
+.bc-bo-le-wi-thin { border-left-width: thin; }
+.bc-bo-le-wi-in { border-left-width: inherit; }
 
-// BORDER RADIUS
-// *Not included because it has a large amount of values
+// BORDER RADIUS: NOPE
 
-// BORDER RIGHT
-// *Not included because it has a large amount of values
+// BORDER RIGHT: NOPE
 
-// BORDER RIGHT COLOR
-// *Not included because it has a large amount of values
+// BORDER RIGHT COLOR: NOPE
 
 // BORDER RIGHT STYLE
-.bc-bor-ri-st-da { border-right-style: dashed; }
-.bc-bor-ri-st-dot { border-right-style: dotted; }
-.bc-bor-ri-st-dou { border-right-style: double; }
-.bc-bor-ri-st-gr { border-right-style: groove; }
-.bc-bor-ri-st-hi { border-right-style: hidden; }
-.bc-bor-ri-st-ins { border-right-style: inset; }
-.bc-bor-ri-st-no { border-right-style: none; }
-.bc-bor-ri-st-ou { border-right-style: outset; }
-.bc-bor-ri-st-ri { border-right-style: ridge; }
-.bc-bor-ri-st-so { border-right-style: solid; }
-//
-//.bc-bor-ri-st-inh { border-right-style: inherit; }
+.bc-bo-ri-st-da { border-right-style: dashed; }
+.bc-bo-ri-st-dot { border-right-style: dotted; }
+.bc-bo-ri-st-dou { border-right-style: double; }
+.bc-bo-ri-st-gr { border-right-style: groove; }
+.bc-bo-ri-st-hi { border-right-style: hidden; }
+.bc-bo-ri-st-ins { border-right-style: inset; }
+.bc-bo-ri-st-no { border-right-style: none; }
+.bc-bo-ri-st-ou { border-right-style: outset; }
+.bc-bo-ri-st-ri { border-right-style: ridge; }
+.bc-bo-ri-st-so { border-right-style: solid; }
+.bc-bo-ri-st-inh { border-right-style: inherit; }
 
 // BORDER RIGHT WIDTH
-// *Just included keyword values
-.bc-bor-ri-wi-me { border-right-width: medium; }
-.bc-bor-ri-wi-thic { border-right-width: thick; }
-.bc-bor-ri-wi-thin { border-right-width: thin; }
-//
-//.bc-bor-ri-wi-in { border-right-width: inherit; }
+.bc-bo-ri-wi-me { border-right-width: medium; }
+.bc-bo-ri-wi-thic { border-right-width: thick; }
+.bc-bo-ri-wi-thin { border-right-width: thin; }
+.bc-bo-ri-wi-in { border-right-width: inherit; }
 
-// BORDER SPACING
-// *Not included because it has a large amount of values
+// BORDER SPACING: NOPE
 
 // BORDER STYLE
-.bc-bor-st-da { border-right-style: dashed; }
-.bc-bor-st-dot { border-right-style: dotted; }
-.bc-bor-st-dou { border-right-style: double; }
-.bc-bor-st-gr { border-right-style: groove; }
-.bc-bor-st-hi { border-right-style: hidden; }
-.bc-bor-st-ins { border-right-style: inset; }
-.bc-bor-st-no { border-right-style: none; }
-.bc-bor-st-ou { border-right-style: outset; }
-.bc-bor-st-ri { border-right-style: ridge; }
-.bc-bor-st-so { border-right-style: solid; }
-//
-//.bc-bor-st-inh { border-right-style: inherit; }
+.bc-bo-st-da { border-style: dashed; }
+.bc-bo-st-dot { border-style: dotted; }
+.bc-bo-st-dou { border-style: double; }
+.bc-bo-st-gr { border-style: groove; }
+.bc-bo-st-hi { border-style: hidden; }
+.bc-bo-st-ins { border-style: inset; }
+.bc-bo-st-no { border-style: none; }
+.bc-bo-st-ou { border-style: outset; }
+.bc-bo-st-ri { border-style: ridge; }
+.bc-bo-st-so { border-style: solid; }
+.bc-bo-st-inh { border-style: inherit; }
 
-//BORDER TOP
-// *Not included because it has a large amount of values
+//BORDER TOP: NOPE
 
-//BORDER TOP COLOR
-// *Not included because it has a large amount of values
+//BORDER TOP COLOR: NOPE
 
-// BORDER TOP LEFT RADIUS
-// *Not included because it has a large amount of values
+// BORDER TOP LEFT RADIUS: NOPE
 
-// BORDER TOP RIGHT RADIUS
-// *Not included because it has a large amount of values
+// BORDER TOP RIGHT RADIUS: NOPE
 
 // BORDER TOP STYLE
-.bc-bor-to-st-da { border-top-style: dashed; }
-.bc-bor-to-st-dot { border-top-style: dotted; }
-.bc-bor-to-st-dou { border-top-style: double; }
-.bc-bor-to-st-gr { border-top-style: groove; }
-.bc-bor-to-st-hi { border-top-style: hidden; }
-.bc-bor-to-st-ins { border-top-style: inset; }
-.bc-bor-to-st-no { border-top-style: none; }
-.bc-bor-to-st-ou { border-top-style: outset; }
-.bc-bor-to-st-ri { border-top-style: ridge; }
-.bc-bor-to-st-so { border-top-style: solid; }
-//
-//.bc-bor-bo-st-inh { border-top-style: inherit; }
+.bc-bo-to-st-da { border-top-style: dashed; }
+.bc-bo-to-st-dot { border-top-style: dotted; }
+.bc-bo-to-st-dou { border-top-style: double; }
+.bc-bo-to-st-gr { border-top-style: groove; }
+.bc-bo-to-st-hi { border-top-style: hidden; }
+.bc-bo-to-st-ins { border-top-style: inset; }
+.bc-bo-to-st-no { border-top-style: none; }
+.bc-bo-to-st-ou { border-top-style: outset; }
+.bc-bo-to-st-ri { border-top-style: ridge; }
+.bc-bo-to-st-so { border-top-style: solid; }
+.bc-bo-bo-st-inh { border-top-style: inherit; }
 
 // BORDER TOP WIDTH
-// *Just included keyword values
-.bc-bor-to-wi-me { border-top-width: medium; }
-.bc-bor-to-wi-thic { border-top-width: thick; }
-.bc-bor-to-wi-thin { border-top-width: thin; }
-//
-//.bc-bor-to-wi-in { border-top-width: inherit; }
+.bc-bo-to-wi-me { border-top-width: medium; }
+.bc-bo-to-wi-thic { border-top-width: thick; }
+.bc-bo-to-wi-thin { border-top-width: thin; }
+.bc-bo-to-wi-in { border-top-width: inherit; }
 
 //BOTTOM
-// *Included just reset values
 .bc-bot-au { bottom: auto; }
-//.bc-bot-in { bottom: inherit; }
+.bc-bot-in { bottom: inherit; }
 
-// BOX DECORATION BREAK
-// *Not included because specification has not stabilized
-//.bc-box-de-sl { box-decoration-break: slice; }
-//.bc-box-de-cl { box-decoration-break: clone; }
-////
-//.bc-box-de-ini { box-decoration-break: initial; }
-//.bc-box-de-inh { box-decoration-break: inherit; }
-//.bc-box-de-un { box-decoration-break: unset; }
+// BOX DECORATION BREAK: NOPE
 
-// BOX SHADOW
-// *Not included because it has a large amount of values
+// BOX SHADOW: NOPE
 
 //BOX SIZING
-.bc-box-si-bbx { box-sizing: border-box; }
-.bc-box-si-cbx { box-sizing: content-box; }
-//
-//.bc-box-si-inh { box-sizing: inherit; }
+.bc-box-si-bo-bo { box-sizing: border-box; }
+.bc-box-si-co-bo { box-sizing: content-box; }
+.bc-box-si-inh { box-sizing: inherit; }
 .bc-box-si-ini { box-sizing: initial; }
 .bc-box-si-un { box-sizing: unset; }
 
@@ -354,14 +251,14 @@
 .bc-br-af-al { break-after: always; }
 .bc-br-af-au { break-after: auto; }
 .bc-br-af-av { break-after: avoid; }
-.bc-br-af-avco { break-after: avoid-column; }
-.bc-br-af-avpa { break-after: avoid-page; }
-.bc-br-af-avre { break-after: avoid-region; }
+.bc-br-af-av-co { break-after: avoid-column; }
+.bc-br-af-av-pa { break-after: avoid-page; }
+.bc-br-af-av-re { break-after: avoid-region; }
 .bc-br-af-co { break-after: column; }
 .bc-br-af-le { break-after: left; }
 .bc-br-af-pa { break-after: page; }
-.bc-br-af-re { break-after: recto; }
-.bc-br-af-re { break-after: region; }
+.bc-br-af-rec { break-after: recto; }
+.bc-br-af-reg { break-after: region; }
 .bc-br-af-ri { break-after: right; }
 .bc-br-af-ve { break-after: verso; }
 
@@ -369,20 +266,20 @@
 .bc-br-be-al { break-before: always; }
 .bc-br-be-au { break-before: auto; }
 .bc-br-be-av { break-before: avoid; }
-.bc-br-be-avco { break-before: avoid-column; }
-.bc-br-be-avpa { break-before: avoid-page; }
-.bc-br-be-avre { break-before: avoid-region; }
+.bc-br-be-av-co { break-before: avoid-column; }
+.bc-br-be-av-pa { break-before: avoid-page; }
+.bc-br-be-av-re { break-before: avoid-region; }
 .bc-br-be-co { break-before: column; }
 .bc-br-be-le { break-before: left; }
 .bc-br-be-pa { break-before: page; }
-.bc-br-be-re { break-before: recto; }
-.bc-br-be-re { break-before: region; }
+.bc-br-be-rec { break-before: recto; }
+.bc-br-be-reg { break-before: region; }
 .bc-br-be-ri { break-before: right; }
 .bc-br-be-ve { break-before: verso; }
 
 // BREAK INSIDE
 .bc-br-in-au { break-inside: auto; }
 .bc-br-in-av { break-inside: avoid; }
-.bc-br-in-avco { break-inside: avoid-column; }
-.bc-br-in-avpa { break-inside: avoid-page; }
-.bc-br-in-avre { break-inside: avoid-region; }
+.bc-br-in-av-co { break-inside: avoid-column; }
+.bc-br-in-av-pa { break-inside: avoid-page; }
+.bc-br-in-av-re { break-inside: avoid-region; }

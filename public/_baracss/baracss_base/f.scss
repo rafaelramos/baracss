@@ -1,60 +1,51 @@
-// FALLBACK
-// *Not included because of the low support
-//.bc-fa-loal { fallback: lower-alpha; }
-//.bc-fa-cugast { fallback: custom-gangnam-style; }... wut??
+// FALLBACK: NOPE
 
-// FILTER
-// *Not included because it has a large amount of values
+// FILTER: NOPE
 
 // FLEX
-.bc-fle-no { flex: none; }
-//
-.bc-fle-inh { flex: inherit; }
-.bc-fle-ini { flex: initial; }
-.bc-fle-un { flex: unset; }
+.bc-fl-no { flex: none; }
+.bc-fl-inh { flex: inherit; }
+.bc-fl-ini { flex: initial; }
+.bc-fl-un { flex: unset; }
 
 // FLEX BASIS
-//.bc-fle-ba-fil { flex-basis: fill; }
-.bc-fle-ba-fico { flex-basis: fit-content; }
-.bc-fle-ba-maco { flex-basis: max-content; }
-.bc-fle-ba-mico { flex-basis: min-content; }
-//
-//.bc-fle-ba-co { flex-basis: content; }
-//
-//.bc-fle-ba-inh { flex-basis: inherit; }
-.bc-fle-ba-ini { flex-basis: initial; }
-.bc-fle-ba-un { flex-basis: unset; }
+.bc-fl-ba-co { flex-basis: content; }
+.bc-fl-ba-fil { flex-basis: fill; }
+.bc-fl-ba-fi-co { flex-basis: fit-content; }
+.bc-fl-ba-inh { flex-basis: inherit; }
+.bc-fl-ba-ini { flex-basis: initial; }
+.bc-fl-ba-ma-co { flex-basis: max-content; }
+.bc-fl-ba-mi-co { flex-basis: min-content; }
+.bc-fl-ba-un { flex-basis: unset; }
 
 // FLEX DIRECTION
 .bc-fle-di-co { flex-direction: column; }
-.bc-fle-di-core { flex-direction: column-reverse; }
-.bc-fle-di-ro { flex-direction: row; }
-.bc-fle-di-rore { flex-direction: row-reverse; }
-//
-//.bc-fle-di-inh { flex-direction: inherit; }
+.bc-fle-di-co-re { flex-direction: column-reverse; }
+.bc-fle-di-inh { flex-direction: inherit; }
 .bc-fle-di-ini { flex-direction: initial; }
+.bc-fle-di-ro { flex-direction: row; }
+.bc-fle-di-ro-re { flex-direction: row-reverse; }
 .bc-fle-di-un { flex-direction: unset; }
 
 // FLEX FLOW
 .bc-fle-fl-co { flex-flow: column; }
-.bc-fle-fl-core { flex-flow: column-reverse; }
+.bc-fle-fl-co-re { flex-flow: column-reverse; }
 .bc-fle-fl-nowr { flex-flow: nowrap; }
 .bc-fle-fl-ro { flex-flow: row; }
-.bc-fle-fl-rore { flex-flow: row-reverse; }
+.bc-fle-fl-ro-re { flex-flow: row-reverse; }
 .bc-fle-fl-wr { flex-flow: wrap; }
-.bc-fle-fl-wrre { flex-flow: wrap-reverse; }
-//
-//.bc-fle-fl-inh { flex-flow: inherit; }
+.bc-fle-fl-wr-re { flex-flow: wrap-reverse; }
+.bc-fle-fl-inh { flex-flow: inherit; }
 .bc-fle-fl-ini { flex-flow: initial; }
 .bc-fle-fl-un { flex-flow: unset; }
 
 // FLEX GROW
-//.bc-fle-gr-inh { flex-grow: inherit; }
+.bc-fle-gr-inh { flex-grow: inherit; }
 .bc-fle-gr-ini { flex-grow: initial; }
 .bc-fle-gr-un { flex-grow: unset; }
 
 // FLEX SHRINK
-//.bc-fle-sh-inh { flex-shrink: inherit; }
+.bc-fle-sh-inh { flex-shrink: inherit; }
 .bc-fle-sh-ini { flex-shrink: initial; }
 .bc-fle-sh-un { flex-shrink: unset; }
 
@@ -64,21 +55,19 @@
 .bc-fle-wr-no { flex-wrap: nowrap; }
 .bc-fle-wr-un { flex-wrap: unset; }
 .bc-fle-wr-wr { flex-wrap: wrap; }
-.bc-fle-wr-wrre { flex-wrap: wrap-reverse; }
+.bc-fle-wr-wr-re { flex-wrap: wrap-reverse; }
 
 //Float
-//.bc-flo-inst { float: inline-start; }
-//.bc-flo-inen { float: inline-end; }
+.bc-flo-in-st { float: inline-start; }
+.bc-flo-in-en { float: inline-end; }
 .bc-flo-le { float: left; }
 .bc-flo-no { float: none; }
 .bc-flo-ri { float: right; }
-//
-//.bc-flo-inh { float: inherit; }
+.bc-flo-inh { float: inherit; }
 .bc-flo-ini { float: initial; }
 .bc-flo-un { float: unset; }
 
-// FONT
-// *Not included because it has a large amount of values
+// FONT: NOPE
 
 // FONT FAMILY
 .bc-fo-fa-cu { font-family: cursive; }
@@ -86,58 +75,49 @@
 .bc-fo-fa-mo { font-family: monospace; }
 .bc-fo-fa-se { font-family: serif; }
 .bc-fo-fa-sase { font-family: sans-serif; }
-//
 .bc-fo-fa-inh { font-family: inherit; }
 .bc-fo-fa-ini { font-family: inherit; }
 .bc-fo-fa-un { font-family: unset; }
 
-// FONT FEATURE SETTINGS
-// *Not included because I didn't get it what was about
-// TODO: https://developer.mozilla.org/en-US/docs/Web/CSS/font-feature-settings
+// FONT FEATURE SETTINGS: NOPE
 
 // FONT KERNING
 .bc-fo-ke-au { font-kerning: auto; }
 .bc-fo-ke-non { font-kerning: none; }
 .bc-fo-ke-nor { font-kerning: normal; }
-//
-//.bc-fo-ke-inh { font-kerning: inherit; }
+.bc-fo-ke-inh { font-kerning: inherit; }
 .bc-fo-ke-ini { font-kerning: initial; }
 .bc-fo-ke-un { font-kerning: unset; }
 
-// FONT LANGUAGE OVERRIDE
-// *Not included because its use is custom to the project
+// FONT LANGUAGE OVERRIDE: NOPE
 
 // FONT SIZE
-.bc-fo-si-xxsm { font-size: xx-small; }
-.bc-fo-si-xsm { font-size: x-small; }
+.bc-fo-si-xx-sm { font-size: xx-small; }
+.bc-fo-si-x-sm { font-size: x-small; }
 .bc-fo-si-sm { font-size: small; }
 .bc-fo-si-me { font-size: medium; }
 .bc-fo-si-la { font-size: large; }
-.bc-fo-si-xla { font-size: x-large; }
-.bc-fo-si-xxla { font-size: xx-large; }
-//
+.bc-fo-si-x-la { font-size: x-large; }
+.bc-fo-si-xx-la { font-size: xx-large; }
 .bc-fo-si-laer { font-size: larger; }
 .bc-fo-si-smer { font-size: smaller; }
-//
-//.bc-fo-si-inh { font-size: inherit; }
+.bc-fo-si-inh { font-size: inherit; }
 .bc-fo-si-ini { font-size: initial; }
 .bc-fo-si-un { font-size: unset; }
 
-// FONT SIZE ADJUST
-// *Not included because its use is custom to the project
+// FONT SIZE ADJUST: NOPE
 
 // FONT STRETCH
 .bc-fo-str-co { font-stretch: condensed; }
 .bc-fo-str-ex { font-stretch: expanded; }
-.bc-fo-str-exco { font-stretch: extra-condensed; }
-.bc-fo-str-exex { font-stretch: extra-expanded; }
+.bc-fo-str-ex-co { font-stretch: extra-condensed; }
+.bc-fo-str-ex-ex { font-stretch: extra-expanded; }
 .bc-fo-str-no { font-stretch: normal; }
-.bc-fo-str-seco { font-stretch: semi-condensed; }
-.bc-fo-str-seex { font-stretch: semi-expanded; }
-.bc-fo-str-ulco { font-stretch: ultra-condensed; }
-.bc-fo-str-ulex { font-stretch: ultra-expanded; }
-//
-//.bc-fo-st-inh { font-stretch: inherit; }
+.bc-fo-str-se-co { font-stretch: semi-condensed; }
+.bc-fo-str-se-ex { font-stretch: semi-expanded; }
+.bc-fo-str-ul-co { font-stretch: ultra-condensed; }
+.bc-fo-str-ul-ex { font-stretch: ultra-expanded; }
+.bc-fo-st-inh { font-stretch: inherit; }
 .bc-fo-str-ini { font-stretch: initial; }
 .bc-fo-str-un { font-stretch: unset; }
 
@@ -145,45 +125,31 @@
 .bc-fo-sty-it { font-style: italic; }
 .bc-fo-sty-no { font-style: normal; }
 .bc-fo-sty-ob { font-style: oblique; }
-//
 .bc-fo-sty-inh { font-style: inherit; }
 .bc-fo-sty-ini { font-style: initial; }
 .bc-fo-sty-un { font-style: unset; }
 
-// FONT SYNTHESIS
-// *Not included because I didn't get the use and is not widely supported
-// TODO: https://developer.mozilla.org/en-US/docs/Web/CSS/font-synthesis
+// FONT SYNTHESIS: NOPE
 
-// FONT VARIANT
-// *Those values are the right ones?
-// TODO: https://developer.mozilla.org/en-US/docs/Web/CSS/font-synthesis
-.bc-fo-va-no { font-variant: normal; }
-.bc-fo-va-smca { font-variant: small-caps; }
+// FONT VARIANT: NOPE
 
-// FONT VARIANT ALTERNATES
-// *Not included because it has a large amount of values
+// FONT VARIANT ALTERNATES: NOPE
 
-// FONT VARIANT CAPS
-// *Not included because its use is custom to the project
+// FONT VARIANT CAPS: NOPE
 
-// FONT VARIANT EAST ASIAN
-// *Not included because its use is custom to the project
+// FONT VARIANT EAST ASIAN: NOPE
 
-// FONT VARIANT LIGATURES
-// *Not included because its use is custom to the project
+// FONT VARIANT LIGATURES: NOPE
 
-// FONT VARIANT NUMERIC
-// *Not included because its use is custom to the project
+// FONT VARIANT NUMERIC: NOPE
 
-// FONT VARIANT POSITION
-// *Not included because its use is custom to the project
+// FONT VARIANT POSITION: NOPE
 
 //FONT WEIGHT
 .bc-fo-we-bo { font-weight: bold; }
 .bc-fo-we-boer { font-weight: bolder; }
 .bc-fo-we-lier { font-weight: lighter; }
 .bc-fo-we-no { font-weight: normal; }
-//
 .bc-fo-we-100 { font-weight: 100; }
 .bc-fo-we-200 { font-weight: 200; }
 .bc-fo-we-300 { font-weight: 300; }
@@ -193,7 +159,6 @@
 .bc-fo-we-700 { font-weight: 700; }
 .bc-fo-we-800 { font-weight: 800; }
 .bc-fo-we-900 { font-weight: 900; }
-//
-//.bc-fo-we-inh { font-weight: inherit; }
+.bc-fo-we-inh { font-weight: inherit; }
 .bc-fo-we-ini { font-weight: initial; }
 .bc-fo-we-un { font-weight: unset; }

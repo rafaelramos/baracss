@@ -1,8 +1,7 @@
 // DIRECTION
-.bc-dir-lt { direction: ltr; }
-.bc-dir-rt { direction: rtl; }
-//
-//.bc-dir-inh { direction: inherit; }
+.bc-dir-ltr { direction: ltr; }
+.bc-dir-rtl { direction: rtl; }
+.bc-dir-inh { direction: inherit; }
 .bc-dir-ini { direction: initial; }
 .bc-dir-un { direction: unset; }
 
@@ -10,33 +9,21 @@
 .bc-dis-bl { display: block; }
 .bc-dis-fl { display: flex; }
 .bc-dis-in { display: inline; }
-.bc-dis-inbl { display: inline-block; }
-.bc-dis-infl { display: inline-flex; }
-.bc-dis-inta { display: inline-table; }
-.bc-dis-liit { display: list-item; }
+.bc-dis-in-bl { display: inline-block; }
+.bc-dis-in-fl { display: inline-flex; }
+.bc-dis-in-ta { display: inline-table; }
+.bc-dis-li-it { display: list-item; }
 .bc-dis-no { display: none; }
-.bc-dis-ruin { display: run-in; }
+.bc-dis-ru-in { display: run-in; }
 .bc-dis-ta { display: table; }
-.bc-dis-taca { display: table-caption; }
-.bc-dis-tace { display: table-cell; }
-.bc-dis-taco { display: table-column; }
-.bc-dis-tacogr { display: table-column-group; }
-.bc-dis-tafogr { display: table-footer-group; }
-.bc-dis-tahegr { display: table-header-group; }
-.bc-dis-taro { display: table-row; }
-.bc-dis-tarogr { display: table-row-group; }
-//
-// *Not stabilized are not included
-//.bc-dis-co { display: contents; }
-//.bc-dis-gr { display: grid; }
-//.bc-dis-ingr { display: inline-grid; }
-//.bc-dis-rub { display: ruby; }
-//.bc-dis-rubba { display: ruby-base; }
-//.bc-dis-rubte { display: ruby-text; }
-//.bc-dis-rubbaco { display: ruby-base-container; }
-//.bc-dis-rubteco { display: ruby-text-container; }
-//.bc-dis-runin { display: run-in; }
-//
-//.bc-dis-inh { display: inherit; }
+.bc-dis-ta-ca { display: table-caption; }
+.bc-dis-ta-ce { display: table-cell; }
+.bc-dis-ta-co { display: table-column; }
+.bc-dis-ta-co-gr { display: table-column-group; }
+.bc-dis-ta-fo-gr { display: table-footer-group; }
+.bc-dis-ta-he-gr { display: table-header-group; }
+.bc-dis-ta-ro { display: table-row; }
+.bc-dis-ta-ro-gr { display: table-row-group; }
+.bc-dis-inh { display: inherit; }
 .bc-dis-ini { display: initial; }
 .bc-dis-un { display: unset; }
